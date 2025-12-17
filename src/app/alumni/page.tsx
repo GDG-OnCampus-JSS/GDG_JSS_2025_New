@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import ProfileCard from "@/components/common/ProfileCard";
 import { alumniMembers } from "@/lib/alumni";
