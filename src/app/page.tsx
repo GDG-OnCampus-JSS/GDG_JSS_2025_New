@@ -1,4 +1,3 @@
-"use client";
 import Events from "@/components/home/Events";
 import Socials from "@/components/home/Socials";
 
