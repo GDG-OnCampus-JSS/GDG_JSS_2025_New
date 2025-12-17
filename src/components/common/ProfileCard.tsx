@@ -6,7 +6,8 @@ type Props = {
   profile: {
     id: string;
     name: string;
-    role: string;
+    role?: string;
+    batch?: string;
     bio: string;
     image: string;
     linkedin?: string;
@@ -48,7 +49,7 @@ export default function ProfileCard({ profile }: Props) {
       </div>
 
       <div className="pt-40 px-5 pb-5 flex items-center justify-between">
-        <p className="text-gray-800 font-medium text-sm">{profile.role}</p>
+        <p className="text-gray-800 font-medium text-sm">{profile.role ? profile.role : profile.batch}</p>
 
         <div className="flex gap-3 text-xl">
           {profile.linkedin && (

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import ProfileCard from "@/components/common/ProfileCard";
-import { teamMembers } from "@/lib/team";
+import { alumniMembers } from "@/lib/alumni";
 
 export default function TeamPage() {
   return (
@@ -24,7 +24,7 @@ export default function TeamPage() {
         <Image src="/icons/logo.svg" width={350} height={300} alt="logo" />
       </section>
       <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-9 justify-items-center">
-        {teamMembers.map((member) => (
+        {alumniMembers.map((member) => (
           <ProfileCard key={member.id} profile={member} />
         ))}
       </section>
