@@ -18,7 +18,7 @@ const Hero = ({ title, desc }: Props) => {
           Join Us
         </button>
       </div>
-      <Image src="/icons/logo.svg" width={350} height={300} alt="logo" />
+      <Image src="/icons/logo.svg" width={400} height={400} alt="logo" />
     </section>
   );
 };
