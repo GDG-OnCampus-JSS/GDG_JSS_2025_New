@@ -14,6 +14,7 @@ export default function TeamPage() {
           desc="We are a collective of web developers, app developers, designers, ML
           engineers, and programmers, learning, building, and collaborating with
           a shared passion for innovation"
+          logo="/icons/logo.svg"
         />
         <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-9 justify-items-center">
           {teamMembers.map((member) => (

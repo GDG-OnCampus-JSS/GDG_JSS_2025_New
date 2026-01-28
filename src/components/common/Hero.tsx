@@ -2,8 +2,9 @@ import Image from "next/image";
 type Props = {
     title: string;
     desc: string;
+    logo: string;
 }
-const Hero = ({ title, desc }: Props) => {
+const Hero = ({ title, desc, logo }: Props) => {
   return (
     <section className="flex flex-col lg:flex-row items-center justify-between gap-12 mb-20">
       <div className="flex flex-col items-start gap-8 max-w-176 px-2.5">
@@ -18,7 +19,7 @@ const Hero = ({ title, desc }: Props) => {
           Join Us
         </button>
       </div>
-      <Image src="/icons/logo.svg" width={400} height={400} alt="logo" />
+      <Image src={logo} width={400} height={400} alt="logo" />
     </section>
   );
 };

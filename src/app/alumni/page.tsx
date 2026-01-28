@@ -12,6 +12,7 @@ export default function TeamPage() {
         <Hero
           title="Our Alumni"
           desc="Discover our remarkable alumni who lead by example, turning talent into success and rising high in the real world. Their achievements inspire us every day"
+          logo="/icons/logo.svg"
         />
         <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-9 justify-items-center">
           {alumniMembers.map((member) => (
