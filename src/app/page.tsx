@@ -3,6 +3,7 @@ import Socials from "@/components/home/Socials";
 import Header from "@/components/common/Header";
 import Hero from "@/components/common/Hero";
 import WhatWeDo from "@/components/home/WhatWeDo";
+import Footer from "@/components/common/Footer";
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
           </section>
         </div>
       </div>
+      <Footer/>
     </>
   );
 }
