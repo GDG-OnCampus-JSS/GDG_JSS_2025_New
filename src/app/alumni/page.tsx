@@ -3,6 +3,7 @@ import ProfileCard from "@/components/common/ProfileCard";
 import { alumniMembers } from "@/lib/alumni";
 import Hero from "@/components/common/Hero";
 import Header from "@/components/common/Header";
+import Footer from "@/components/common/Footer";
 
 export default function TeamPage() {
   return (
@@ -20,6 +21,7 @@ export default function TeamPage() {
           ))}
         </section>
       </div>
+      <Footer/>
     </>
   );
 }

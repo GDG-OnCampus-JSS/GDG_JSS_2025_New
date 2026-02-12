@@ -42,7 +42,7 @@ export default function Header() {
   );
 
   return (
-    <header className="w-full px-[8vw] py-4 inline-flex justify-between items-center overflow-hidden">
+    <header className="w-full px-[8vw] py-4 inline-flex justify-between items-center">
       <div className="flex justify-start items-center gap-1">
         <Image
           src="/icons/gdsclogo.svg"
@@ -63,16 +63,38 @@ export default function Header() {
         <MenuIcon className="text-black" />
       </Button>
 
-      <div className="hidden px-1 relative md:flex justify-start items-center gap-12">
+      <div className="hidden px-1 relative md:flex justify-start items-center gap-6 lg:gap-12">
         <NavLinks onClick={() => setIsMobileMenuOpen(false)} />
       </div>
 
       {isMobileMenuOpen && (
-        <div className="absolute top-16 right-6 bg-white shadow-lg rounded-lg flex flex-col gap-4 p-6 lg:hidden">
-          <NavLinks onClick={() => setIsMobileMenuOpen(false)} />
+        <div className="fixed inset-0 z-50 bg-white px-[8vw] py-8 flex flex-col gap-6 lg:hidden">
+          <div className="flex items-center justify-between">
+            <div className="flex justify-start items-center gap-1">
+              <Image
+                src="/icons/gdsclogo.svg"
+                alt="gdsc logo"
+                width={32}
+                height={32}
+              />
+              <span className="justify-start text-neutral-700 text-base font-normal cursor-pointer">
+                GDG JSSATEN
+              </span>
+            </div>
+            <Button
+              type="button"
+              title="Close menu"
+              className="bg-white hover:bg-white"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              <MenuIcon className="text-black" />
+            </Button>
+          </div>
+          <div className="flex flex-col gap-4 pt-4">
+            <NavLinks onClick={() => setIsMobileMenuOpen(false)} />
+          </div>
         </div>
       )}
     </header>
   );
 }
-

@@ -1,4 +1,5 @@
 
+import Footer from "@/components/common/Footer";
 import Header from "@/components/common/Header";
 import Hero from "@/components/common/Hero";
 import ProfileCard from "@/components/common/ProfileCard";
@@ -8,7 +9,7 @@ export default function TeamPage() {
   return (
     <>
       <Header />
-      <div className="px-4 sm:px-8 lg:px-25 py-12 sm:py-16 lg:py-20 flex flex-col gap-16 lg:gap-20">
+      <div className="px-4 md:px-8 lg:px-25 pt-16 pb-20 flex flex-col gap-16 lg:gap-20">
         <Hero
           title="Meet the Geeks"
           desc="We are a collective of web developers, app developers, designers, ML
@@ -16,12 +17,13 @@ export default function TeamPage() {
           a shared passion for innovation"
           logo="/icons/logo.svg"
         />
-        <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-9 justify-items-center">
+        <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9 justify-items-center">
           {teamMembers.map((member) => (
             <ProfileCard key={member.id} profile={member} />
           ))}
         </section>
       </div>
+      <Footer />
     </>
   );
 }

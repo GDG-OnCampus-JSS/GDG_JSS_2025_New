@@ -48,8 +48,6 @@ export default function CarouselEvents() {
       >
         {/* Fade gradients */}
         <div className="relative overflow-hidden">
-          <div className="pointer-events-none absolute left-0 top-0 z-10 h-full w-120 md:w-100 lg:w-60 bg-linear-to-r from-white to-transparent" />
-          <div className="pointer-events-none absolute right-0 top-0 z-10 h-full w-120 md:100 lg:w-60 bg-linear-to-l from-white to-transparent" />
 
           <CarouselContent className="-ml-4 sm:-ml-6">
             {events.map((event, index) => {

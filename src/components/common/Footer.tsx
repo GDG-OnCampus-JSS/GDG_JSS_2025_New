@@ -25,8 +25,8 @@ const links = [
 function Footer() {
   return (
     <div className="w-full bg-[#F9F9F9] border border-[#E7E7E7] flex flex-col items-center gap-10 px-6 py-10 md:px-10 md:py-12">
-      <div className="w-full max-w-5xl flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
-        <div className="flex flex-col justify-start items-start md:w-[60%] gap-6">
+      <div className="w-full max-w-5xl flex flex-col gap-8 items-center md:flex-row md:items-start md:justify-between">
+        <div className="flex flex-col justify-start items-center md:items-start md:w-[60%] gap-6">
           <div className="flex justify-start items-center gap-1">
             <Image
               src="/icons/gdsclogo.svg"
@@ -45,7 +45,7 @@ function Footer() {
         </div>
         <div className="flex flex-col justify-start items-start gap-4 text-lg md:text-xl text-[#565656]">
           <p>Follow us on Social Media</p>
-          <div className="flex gap-4">
+          <div className="flex gap-4 justify-center md:justify-start w-full">
             {links.map((link) => (
               <Link
                 href={link.link}
@@ -66,7 +66,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="w-full max-w-5xl text-left flex text-[#565656] gap-2">
+      <div className="w-full max-w-5xl flex text-[#565656] gap-2 justify-center items-center md:justify-start">
         <Image
           src="/icons/copyright.svg"
           alt="copyright"

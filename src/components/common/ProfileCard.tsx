@@ -23,7 +23,7 @@ export default function ProfileCard({ profile }: Props) {
           src={profile.image}
           alt={profile.name}
           fill
-          className="object-cover bg-black"
+          className="object-cover"
         />
       </div>
       <svg
@@ -48,8 +48,10 @@ export default function ProfileCard({ profile }: Props) {
         </div>
       </div>
 
-      <div className="pt-40 px-5 pb-5 flex items-center justify-between">
-        <p className="text-gray-800 font-medium text-sm">{profile.role ? profile.role : profile.batch}</p>
+      <div className="pt-36 px-5 pb-5 flex items-center justify-between">
+        <p className="text-gray-800 font-medium text-sm">
+          {profile.role ? profile.role : profile.batch}
+        </p>
 
         <div className="flex gap-3 text-xl">
           {profile.linkedin && (
