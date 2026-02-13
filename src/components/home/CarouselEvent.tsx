@@ -92,7 +92,7 @@ export default function CarouselEvents() {
 
                     {/* Text */}
                     <div className="px-4 py-3">
-                      <h4 className="font-product text-xl sm:text-2xl font-bold text-[#202124]">
+                      <h4 className="font-ProductSans text-xl sm:text-2xl font-bold text-[#202124]">
                         {event.title}
                       </h4>
                       <p className="mt-1 text-sm sm:text-base text-[#565656] leading-normal tracking-[0.32px]">

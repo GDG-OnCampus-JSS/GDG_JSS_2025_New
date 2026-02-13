@@ -2,7 +2,7 @@ import Image from "next/image";
 const WhatWeDo = () => {
   return (
     <section>
-      <h2 className="py-12 self-stretch text-center justify-start text-Primary text-5xl font-bold font-['Product_Sans'] tracking-wide">
+      <h2 className="py-12 self-stretch text-center justify-start text-Primary text-5xl font-bold font-ProductSans tracking-wide">
         What we Do!
       </h2>
       <div className="inline-flex gap-5 ">
@@ -18,10 +18,10 @@ const WhatWeDo = () => {
           </div>
           <div className="self-stretch px-6 flex flex-col justify-start items-start overflow-hidden">
             <div className="self-stretch flex flex-col justify-center items-center gap-3">
-              <div className="self-stretch justify-start text-Primary text-3xl font-bold font-['Product_Sans']">
+              <div className="self-stretch justify-start text-Primary text-3xl font-bold font-ProductSans">
                 Design
               </div>
-              <div className="self-stretch justify-start text-Secondary text-base font-normal font-['Product_Sans'] leading-6 tracking-tight">
+              <div className="self-stretch justify-start text-Secondary text-base font-normal font-ProductSans leading-6 tracking-tight">
                 A creative hub where we craft meaningful experiences through
                 storytelling, research, and visual innovation.
               </div>
@@ -31,10 +31,10 @@ const WhatWeDo = () => {
         <div className="w-96 h-80 pt-5 bg-stone-50 rounded-2xl -outline-offset-1 inline-flex flex-col justify-start items-start overflow-hidden">
           <div className="self-stretch px-6 flex flex-col justify-start items-start gap-3 overflow-hidden">
             <div className="self-stretch flex flex-col justify-center items-center gap-3">
-              <div className="self-stretch justify-start text-Primary text-3xl font-bold font-['Product_Sans']">
+              <div className="self-stretch justify-start text-Primary text-3xl font-bold font-ProductSans">
                 Web Development
               </div>
-              <div className="self-stretch justify-start text-Secondary text-base font-normal font-['Product_Sans'] leading-6 tracking-tight">
+              <div className="self-stretch justify-start text-Secondary text-base font-normal font-ProductSans leading-6 tracking-tight">
                 {" "}
                 A builder’s space where we create dynamic, user-focused websites
                 using modern web technologies.
@@ -63,10 +63,10 @@ const WhatWeDo = () => {
           </div>
           <div className="self-stretch px-6 flex flex-col justify-start items-start overflow-hidden">
             <div className="self-stretch flex flex-col justify-center items-center gap-3">
-              <div className="self-stretch justify-start text-Primary text-3xl font-bold font-['Product_Sans']">
+              <div className="self-stretch justify-start text-Primary text-3xl font-bold font-ProductSans">
                 App Development
               </div>
-              <div className="self-stretch justify-start text-Secondary text-base font-normal font-['Product_Sans'] leading-6 tracking-tight">
+              <div className="self-stretch justify-start text-Secondary text-base font-normal font-ProductSans leading-6 tracking-tight">
                 A launchpad for turning ideas into intuitive mobile apps through
                 hands-on development and collaboration.
               </div>
@@ -87,10 +87,10 @@ const WhatWeDo = () => {
           </div>
           <div className="self-stretch h-24 px-6 flex flex-col justify-start items-start gap-3 overflow-hidden">
             <div className="self-stretch flex flex-col justify-center items-center gap-3">
-              <div className="self-stretch justify-start text-Primary text-3xl font-bold font-['Product_Sans']">
+              <div className="self-stretch justify-start text-Primary text-3xl font-bold font-ProductSans">
                 Programming{" "}
               </div>
-              <div className="self-stretch justify-start text-Secondary text-base font-normal font-['Product_Sans'] leading-6 tracking-tight">
+              <div className="self-stretch justify-start text-Secondary text-base font-normal font-ProductSans leading-6 tracking-tight">
                 A problem-solving arena where we strengthen logic, learn new
                 languages, and build impactful software together.
               </div>
@@ -100,10 +100,10 @@ const WhatWeDo = () => {
         <div className="self-stretch h-64 pt-5 bg-stone-50 rounded-2xl -outline-offset-1 inline-flex flex-col justify-start items-start overflow-hidden">
           <div className="self-stretch px-6 flex flex-col justify-center items-start gap-2.5 overflow-hidden">
             <div className="self-stretch flex flex-col justify-center items-center gap-3">
-              <div className="self-stretch justify-start text-Primary text-3xl font-bold font-['Product_Sans']">
+              <div className="self-stretch justify-start text-Primary text-3xl font-bold font-ProductSans">
                 Machine Learning
               </div>
-              <div className="self-stretch justify-start text-Secondary text-base font-normal font-['Product_Sans'] leading-6 tracking-tight">
+              <div className="self-stretch justify-start text-Secondary text-base font-normal font-ProductSans leading-6 tracking-tight">
                 A curiosity-driven community exploring intelligent systems
                 through data, models, and real-world applications.
               </div>

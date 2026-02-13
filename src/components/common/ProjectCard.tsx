@@ -33,7 +33,7 @@ export default function ProjectCard({ project }: Props) {
           <h3 className="text-Primary text-3xl font-bold leading-8 mt-4">
             {project.title}
           </h3>
-          <p className="text-Secondary text-base font-normal font-['Product_Sans'] leading-6 mt-4 whitespace-normal">
+          <p className="text-Secondary text-base font-normal font-ProductSans leading-6 mt-4 whitespace-normal">
             {project.description}
           </p>
           <div className="mt-4 flex flex-wrap gap-2">
@@ -48,7 +48,7 @@ export default function ProjectCard({ project }: Props) {
                   width={20}
                   height={8}
                 />
-                <p className=" text-Primary text-base font-bold font-['Product_Sans']">
+                <p className=" text-Primary text-base font-bold font-ProductSans">
                   {Object.keys(tech)[0]}
                 </p>
               </div>

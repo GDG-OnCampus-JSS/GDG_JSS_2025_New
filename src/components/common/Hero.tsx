@@ -9,10 +9,10 @@ const Hero = ({ title, desc, logo }: Props) => {
     <section className="flex flex-col lg:flex-row items-center justify-between gap-12 mb-20">
       <div className="flex flex-col items-start gap-8 max-w-176 px-2.5">
         <div className="flex flex-col items-start gap-4">
-          <h2 className="text-[#202124] font-product text-5xl md:text-[56px] font-bold not-italic leading-[1.35] tracking-[-1.12px]">
+          <h2 className="text-[#202124] font-ProductSans text-5xl md:text-[56px] font-bold not-italic leading-[1.35] tracking-[-1.12px]">
             {title}
           </h2>
-          <p className="px-1 text-[#565656] font-product text-lg md:text-xl font-normal not-italic leading-normal tracking-[-0.2px]">{desc}</p></div>
+          <p className="px-1 text-[#565656] font-ProductSans text-lg md:text-xl font-normal not-italic leading-normal tracking-[-0.2px]">{desc}</p></div>
         <button
           type="button"
           className="rounded-[44px] bg-[#1A73E8] py-2 px-10 text-white"
