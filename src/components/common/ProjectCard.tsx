@@ -16,9 +16,9 @@ type Props = {
 
 export default function ProjectCard({ project }: Props) {
   return (
-    <div className="w-full lg:w-260 lg:h-96 p-3 bg-stone-50 rounded-2xl">
+    <div className="w-full lg:w-250 lg:h-96 p-3 bg-stone-50 rounded-2xl">
       <div className="flex flex-col lg:inline-flex lg:flex-row gap-6">
-        <div className="w-full lg:w-110 h-60 lg:h-90 relative">
+        <div className="w-full lg:w-100 h-60 lg:h-90 relative">
           <Image
             src={project.image}
             alt={project.title}
@@ -26,17 +26,17 @@ export default function ProjectCard({ project }: Props) {
             className="object-contain rounded-xl"
           />
         </div>
-        <div className="py-2 w-full lg:w-140">
+        <div className="py-2 w-full lg:w-140 text-center lg:text-left">
           <h3 className="text-Secondary text-base font-normal">
             {project.domain} &#8226; {project.year}
           </h3>
           <h3 className="text-Primary text-3xl font-bold leading-8 mt-4">
             {project.title}
           </h3>
-          <p className="text-Secondary text-base font-normal font-ProductSans leading-6 mt-4 whitespace-normal">
+          <p className="text-Secondary text-base font-normal font-['Product_Sans'] leading-6 mt-4 whitespace-normal">
             {project.description}
           </p>
-          <div className="mt-4 flex flex-wrap gap-2">
+          <div className="mt-4 flex flex-wrap justify-center lg:justify-start gap-2">
             {project.techStack?.map((tech, id) => (
               <div
                 key={id}
@@ -48,7 +48,7 @@ export default function ProjectCard({ project }: Props) {
                   width={20}
                   height={8}
                 />
-                <p className=" text-Primary text-base font-bold font-ProductSans">
+                <p className=" text-Primary text-base font-bold font-['Product_Sans']">
                   {Object.keys(tech)[0]}
                 </p>
               </div>

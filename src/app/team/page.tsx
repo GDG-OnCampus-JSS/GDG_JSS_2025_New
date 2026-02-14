@@ -1,4 +1,3 @@
-
 import Footer from "@/components/common/Footer";
 import Header from "@/components/common/Header";
 import Hero from "@/components/common/Hero";
@@ -9,7 +8,7 @@ export default function TeamPage() {
   return (
     <>
       <Header />
-      <div className="px-4 md:px-8 lg:px-25 pt-16 pb-20 flex flex-col gap-16 lg:gap-20">
+      <div className="px-4 sm:px-8 lg:px-25 py-12 sm:py-16 lg:py-20 flex flex-col gap-16 lg:gap-20">
         <Hero
           title="Meet the Geeks"
           desc="We are a collective of web developers, app developers, designers, ML

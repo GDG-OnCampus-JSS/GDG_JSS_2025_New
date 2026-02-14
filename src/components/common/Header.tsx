@@ -9,10 +9,13 @@ import { Button } from "../ui/button";
 import { navLinks } from "@/lib/options";
 import { MenuIcon } from "./MenuIcon";
 
-export default function Header() {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const pathname = usePathname();
-  const NavLinks = ({ onClick }: { onClick?: () => void }) => (
+type NavLinksProps = {
+  pathname: string;
+  onClick?: () => void;
+};
+
+function NavLinks({ pathname, onClick }: NavLinksProps) {
+  return (
     <>
       {navLinks.map((link) => (
         <Link
@@ -31,15 +34,18 @@ export default function Header() {
         </Link>
       ))}
       <Button
-        onClick={() => {
-          setIsMobileMenuOpen(false);
-        }}
-        className=" md:block h-10 px-5 py-2 bg-blue-600 rounded-[44px] flex justify-center items-center gap-2.5 cursor-pointer text-center text-white text-base font-normal"
+        onClick={onClick}
+        className="md:block px-6 bg-blue-600 rounded-none flex justify-center items-center gap-2.5 cursor-pointer text-center w-fit text-white text-base font-normal"
       >
         Connect
       </Button>
     </>
   );
+}
+
+export default function Header() {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   return (
     <header className="w-full px-[8vw] py-4 inline-flex justify-between items-center">
@@ -60,15 +66,18 @@ export default function Header() {
         className="md:hidden bg-white hover:bg-white"
         onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
       >
-        <MenuIcon className="text-black" />
+        <MenuIcon className="text-black" isOpen={isMobileMenuOpen} />
       </Button>
 
       <div className="hidden px-1 relative md:flex justify-start items-center gap-6 lg:gap-12">
-        <NavLinks onClick={() => setIsMobileMenuOpen(false)} />
+        <NavLinks
+          pathname={pathname}
+          onClick={() => setIsMobileMenuOpen(false)}
+        />
       </div>
 
       {isMobileMenuOpen && (
-        <div className="fixed inset-0 z-50 bg-white px-[8vw] py-8 flex flex-col gap-6 lg:hidden">
+        <div className="fixed inset-0 z-50 bg-white px-[8vw] py-4 flex flex-col gap-6 lg:hidden">
           <div className="flex items-center justify-between">
             <div className="flex justify-start items-center gap-1">
               <Image
@@ -87,11 +96,14 @@ export default function Header() {
               className="bg-white hover:bg-white"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              <MenuIcon className="text-black" />
+              <MenuIcon className="text-black" isOpen={true} />
             </Button>
           </div>
           <div className="flex flex-col gap-4 pt-4">
-            <NavLinks onClick={() => setIsMobileMenuOpen(false)} />
+            <NavLinks
+              pathname={pathname}
+              onClick={() => setIsMobileMenuOpen(false)}
+            />
           </div>
         </div>
       )}

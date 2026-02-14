@@ -1,27 +1,8 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import { footerLinks as links } from "@/lib/options";
 
-const links = [
-  {
-    id: 1,
-    name: "Linkedin",
-    icon: "/icons/lk.svg",
-    link: "https://www.linkedin.com/company/gdg-jssaten/",
-  },
-  {
-    id: 2,
-    name: "WhatsApp",
-    icon: "/icons/wp.svg",
-    link: "",
-  },
-  {
-    id: 3,
-    name: "Instagram",
-    icon: "/icons/ig.svg",
-    link: "https://www.instagram.com/gdg_jssaten/",
-  },
-];
 function Footer() {
   return (
     <div className="w-full bg-[#F9F9F9] border border-[#E7E7E7] flex flex-col items-center gap-10 px-6 py-10 md:px-10 md:py-12">
@@ -74,7 +55,7 @@ function Footer() {
           height={1}
           className="w-6 h-6"
         />
-        <span>2025 GDG JSSATEN</span>
+        <span>2026 GDG JSSATEN</span>
       </div>
       <div className="w-full max-w-5xl">
         <Image

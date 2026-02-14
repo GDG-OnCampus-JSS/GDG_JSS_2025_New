@@ -1,121 +1,119 @@
 import Image from "next/image";
+
 const WhatWeDo = () => {
   return (
-    <section>
-      <h2 className="py-12 self-stretch text-center justify-start text-Primary text-5xl font-bold font-ProductSans tracking-wide">
+    <section className="px-6 pb-16 max-w-310 mx-auto">
+      <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-Primary font-['Product_Sans'] tracking-wide">
         What we Do!
       </h2>
-      <div className="inline-flex gap-5 ">
-        <div className="w-96 h-80 pb-5 bg-stone-50 rounded-2xl -outline-offset-1 inline-flex flex-col justify-start items-start overflow-hidden">
-          <div className="self-stretch flex-1 relative">
+
+      <div className="grid grid-cols-1 lg:grid-cols-6 gap-6">
+        {/*Design */}
+        <div className="lg:col-span-2 w-full md:min-h-80 pb-5 md:max-w-152.5 bg-stone-50 rounded-2xl relative flex flex-col justify-between items-start overflow-hidden">
+          <div className="self-stretch relative aspect-3/1 lg:aspect-2/1">
             <Image
               src="/icons/orangeGradient.svg"
               alt="Orange Gradient"
-              width={170}
-              height={170}
-              className="left-55 absolute"
+              fill
+              sizes="(min-width: 1024px) 33vw, 100vw"
+              className="object-contain object-top-right"
             />
           </div>
-          <div className="self-stretch px-6 flex flex-col justify-start items-start overflow-hidden">
-            <div className="self-stretch flex flex-col justify-center items-center gap-3">
-              <div className="self-stretch justify-start text-Primary text-3xl font-bold font-ProductSans">
-                Design
-              </div>
-              <div className="self-stretch justify-start text-Secondary text-base font-normal font-ProductSans leading-6 tracking-tight">
-                A creative hub where we craft meaningful experiences through
-                storytelling, research, and visual innovation.
-              </div>
+          <div className="self-stretch px-6 flex flex-col justify-start items-start overflow-hidden gap-3">
+            <h2 className="self-stretch justify-start text-Primary text-3xl font-bold font-['Product_Sans']">
+              Design
+            </h2>
+            <div className="self-stretch justify-start text-Secondary text-base font-normal font-['Product_Sans'] leading-6 tracking-tight">
+              A creative hub where we craft meaningful experiences through
+              storytelling, research, and visual innovation.
             </div>
           </div>
         </div>
-        <div className="w-96 h-80 pt-5 bg-stone-50 rounded-2xl -outline-offset-1 inline-flex flex-col justify-start items-start overflow-hidden">
+
+        {/*Web Dev */}
+        <div className="lg:col-span-2 w-full md:min-h-80 pt-5 md:max-w-152.5 bg-stone-50 rounded-2xl relative flex flex-col justify-between items-start overflow-hidden">
           <div className="self-stretch px-6 flex flex-col justify-start items-start gap-3 overflow-hidden">
-            <div className="self-stretch flex flex-col justify-center items-center gap-3">
-              <div className="self-stretch justify-start text-Primary text-3xl font-bold font-ProductSans">
-                Web Development
-              </div>
-              <div className="self-stretch justify-start text-Secondary text-base font-normal font-ProductSans leading-6 tracking-tight">
-                {" "}
-                A builder’s space where we create dynamic, user-focused websites
-                using modern web technologies.
-              </div>
+            <h2 className="self-stretch justify-start text-Primary text-3xl font-bold font-['Product_Sans']">
+              Web Development
+            </h2>
+            <div className="self-stretch justify-start text-Secondary text-base font-normal font-['Product_Sans'] leading-6 tracking-tight">
+              A builder&apos;s space where we create dynamic, user-focused
+              websites using modern web technologies.
             </div>
           </div>
-          <div className="self-stretch flex-1 relative">
+          <div className="self-stretch relative aspect-3/1 lg:aspect-2/1">
             <Image
               src="/icons/blueGradient.svg"
               alt="Blue Circles"
-              width={450}
-              height={450}
-              className="top-4 absolute"
+              fill
+              sizes="(min-width: 1024px) 33vw, 100vw"
+              className="object-contain object-bottom-right"
             />
           </div>
         </div>
-        <div className="w-96 h-80 pb-5 bg-stone-50 rounded-2xl -outline-offset-1 inline-flex flex-col justify-start items-start overflow-hidden">
-          <div className="self-stretch flex-1 relative">
+
+        {/* App Dev */}
+        <div className="lg:col-span-2 w-full md:min-h-80 pb-5 md:max-w-152.5 bg-stone-50 rounded-2xl relative flex flex-col justify-between items-start overflow-hidden">
+          <div className="self-stretch relative aspect-3/1 lg:aspect-2/1">
             <Image
               src="/icons/greenGradient.svg"
               alt="Green Circles"
-              width={400}
-              height={400}
-              className=" absolute"
+              fill
+              sizes="(min-width: 1024px) 33vw, 100vw"
+              className="object-contain object-top-right"
             />
           </div>
-          <div className="self-stretch px-6 flex flex-col justify-start items-start overflow-hidden">
-            <div className="self-stretch flex flex-col justify-center items-center gap-3">
-              <div className="self-stretch justify-start text-Primary text-3xl font-bold font-ProductSans">
-                App Development
-              </div>
-              <div className="self-stretch justify-start text-Secondary text-base font-normal font-ProductSans leading-6 tracking-tight">
-                A launchpad for turning ideas into intuitive mobile apps through
-                hands-on development and collaboration.
-              </div>
+          <div className="self-stretch gap-3 px-6 flex flex-col justify-start items-start overflow-hidden">
+            <h2 className="self-stretch text-left text-Primary text-3xl font-bold font-['Product_Sans']">
+              App Development
+            </h2>
+            <div className="self-stretch justify-start text-Secondary text-base font-normal font-['Product_Sans'] leading-6 tracking-tight">
+              A launchpad for turning ideas into intuitive mobile apps through
+              hands-on development and collaboration.
             </div>
           </div>
         </div>
-      </div>
-      <div className="inline-flex gap-5 pt-6">
-        <div className="self-stretch w-150 h-64 pb-5 bg-stone-50 rounded-2xl -outline-offset-1 inline-flex flex-col justify-start items-start overflow-hidden">
-          <div className="self-stretch h-36 relative">
+
+        {/*Programming */}
+        <div className="lg:col-span-3 w-full max-w-152.5 md:min-h-60 pb-5 bg-stone-50 rounded-2xl relative flex flex-col justify-start items-start overflow-hidden">
+          <div className="self-stretch relative aspect-3/1">
             <Image
-              src="icons/redGradient.svg"
+              src="/icons/redGradient.svg"
               alt="Red Gradient"
-              width={600}
-              height={600}
-              className="absolute"
+              fill
+              sizes="(min-width: 1024px) 33vw, 100vw"
+              className="object-contain object-top-right"
             />
           </div>
-          <div className="self-stretch h-24 px-6 flex flex-col justify-start items-start gap-3 overflow-hidden">
-            <div className="self-stretch flex flex-col justify-center items-center gap-3">
-              <div className="self-stretch justify-start text-Primary text-3xl font-bold font-ProductSans">
-                Programming{" "}
-              </div>
-              <div className="self-stretch justify-start text-Secondary text-base font-normal font-ProductSans leading-6 tracking-tight">
-                A problem-solving arena where we strengthen logic, learn new
-                languages, and build impactful software together.
-              </div>
+          <div className="self-stretch px-6 flex flex-col justify-start items-start gap-3 overflow-hidden">
+            <h2 className="self-stretch justify-start text-Primary text-3xl font-bold font-['Product_Sans']">
+              Programming
+            </h2>
+            <div className="self-stretch justify-start text-Secondary text-base font-normal font-['Product_Sans'] leading-6 tracking-tight">
+              A problem-solving arena where we strengthen logic, learn new
+              languages, and build impactful software together.
             </div>
           </div>
         </div>
-        <div className="self-stretch h-64 pt-5 bg-stone-50 rounded-2xl -outline-offset-1 inline-flex flex-col justify-start items-start overflow-hidden">
-          <div className="self-stretch px-6 flex flex-col justify-center items-start gap-2.5 overflow-hidden">
-            <div className="self-stretch flex flex-col justify-center items-center gap-3">
-              <div className="self-stretch justify-start text-Primary text-3xl font-bold font-ProductSans">
-                Machine Learning
-              </div>
-              <div className="self-stretch justify-start text-Secondary text-base font-normal font-ProductSans leading-6 tracking-tight">
-                A curiosity-driven community exploring intelligent systems
-                through data, models, and real-world applications.
-              </div>
+
+        {/* Card 5: Machine Learning */}
+        <div className="lg:col-span-3 w-full max-w-152.5 md:min-h-60 pt-5 bg-stone-50 rounded-2xl relative flex flex-col justify-between items-start overflow-hidden">
+          <div className="self-stretch px-6 flex flex-col justify-center items-start gap-3 overflow-hidden">
+            <h2 className="self-stretch justify-start text-Primary text-3xl font-bold font-['Product_Sans']">
+              Machine Learning
+            </h2>
+            <div className="self-stretch justify-start text-Secondary text-base font-normal font-['Product_Sans'] leading-6 tracking-tight">
+              A curiosity-driven community exploring intelligent systems through
+              data, models, and real-world applications.
             </div>
           </div>
-          <div className="self-stretch h-36 relative">
+          <div className="self-stretch relative aspect-3/1">
             <Image
-              src="icons/purpleGradient.svg"
+              src="/icons/purpleGradient.svg"
               alt="Purple Circles"
-              width={650}
-              height={650}
-              className=" absolute"
+              fill
+              sizes="(min-width: 1024px) 33vw, 100vw"
+              className="absolute object-contain object-bottom-right"
             />
           </div>
         </div>
