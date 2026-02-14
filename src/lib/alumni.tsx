@@ -1,5 +1,3 @@
-
-
 export interface Alumni {
   id: string;
   name: string;
@@ -9,7 +7,6 @@ export interface Alumni {
   github?: string;
   batch: string;
 }
-
 
 export const alumniMembers: Alumni[] = [
   {

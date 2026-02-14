@@ -1,6 +1,6 @@
-import Footer from '@/components/common/Footer';
-import Header from '@/components/common/Header';
-import Hero from '@/components/common/Hero';
+import Footer from "@/components/common/Footer";
+import Header from "@/components/common/Header";
+import Hero from "@/components/common/Hero";
 function page() {
   return (
     <>
@@ -18,4 +18,4 @@ function page() {
   );
 }
 
-export default page
+export default page;

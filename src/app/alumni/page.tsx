@@ -1,4 +1,3 @@
-import Image from "next/image";
 import ProfileCard from "@/components/common/ProfileCard";
 import { alumniMembers } from "@/lib/alumni";
 import Hero from "@/components/common/Hero";
@@ -21,7 +20,7 @@ export default function TeamPage() {
           ))}
         </section>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }
