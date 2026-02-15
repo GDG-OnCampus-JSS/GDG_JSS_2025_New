@@ -1,5 +1,6 @@
 import "./globals.css";
 import localFont from "next/font/local";
+import Script from "next/script";
 
 const customFont = localFont({
   src: [
@@ -25,7 +26,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={customFont.variable}>
-      <body className={`antialiased`}>{children}</body>
+      <body className={`antialiased`}>
+        {children}
+      <Script 
+          src="https://www.instagram.com/embed.js" 
+          strategy="afterInteractive" 
+        />
+      </body>
     </html>
   );
 }

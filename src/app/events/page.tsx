@@ -1,6 +1,8 @@
 import Footer from "@/components/common/Footer";
 import Header from "@/components/common/Header";
 import Hero from "@/components/common/Hero";
+import InstagramEmbed from "@/components/ui/instagramEmbed";
+import { instagramPosts } from "@/lib/instagram-posts";
 function page() {
   return (
     <>
@@ -11,7 +13,11 @@ function page() {
           desc="We organize impactful events across a wide range of technical topics—featuring hands-on workshops, learning sessions, and collaborative activities. We take pride in fostering an inclusive environment for everyone interested in tech."
           logo="/icons/logo.svg"
         />
-        <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-9 justify-items-center"></section>
+        <section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-9 items-stretch justify-items-center w-full">
+          {instagramPosts.map((post) => (
+            <InstagramEmbed key={post.id} url={post.url} />
+          ))}
+        </section>
       </div>
       <Footer />
     </>
