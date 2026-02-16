@@ -19,7 +19,7 @@ function Footer() {
               GDG JSSATEN
             </span>
           </div>
-          <p className="text-[#9E9E9E] text-xl leading-6 tracking-[0.4px]">
+          <p className="text-[#9E9E9E] text-xl text-center md:text-left leading-6 tracking-[0.4px]">
             GDG OnCampus is a community of tech enthusiasts building and
             learning together through workshops and projects.
           </p>

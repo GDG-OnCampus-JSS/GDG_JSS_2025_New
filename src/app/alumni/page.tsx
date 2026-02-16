@@ -4,7 +4,7 @@ import Hero from "@/components/common/Hero";
 import Header from "@/components/common/Header";
 import Footer from "@/components/common/Footer";
 
-export default function TeamPage() {
+export default function AlumniPage() {
   return (
     <>
       <Header />
@@ -15,8 +15,8 @@ export default function TeamPage() {
           logo="/icons/logo.svg"
         />
         <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-9 justify-items-center">
-          {alumniMembers.map((member) => (
-            <ProfileCard key={member.id} profile={member} />
+          {alumniMembers.map((member, index) => (
+            <ProfileCard key={member.id} profile={member} index={index} />
           ))}
         </section>
       </div>

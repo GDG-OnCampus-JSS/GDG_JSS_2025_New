@@ -1,9 +1,19 @@
+"use client";
 import Footer from "@/components/common/Footer";
 import Header from "@/components/common/Header";
 import Hero from "@/components/common/Hero";
 import InstagramEmbed from "@/components/ui/instagramEmbed";
 import { instagramPosts } from "@/lib/instagram-posts";
-function page() {
+import { motion, useReducedMotion } from "framer-motion";
+import {
+  subtleCardReveal,
+  subtleCardTransition,
+  subtleCardViewport,
+} from "@/lib/animations";
+
+function EventsPage() {
+  const reduceMotion = useReducedMotion();
+
   return (
     <>
       <Header />
@@ -15,7 +25,16 @@ function page() {
         />
         <section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-9 items-stretch justify-items-center w-full">
           {instagramPosts.map((post) => (
-            <InstagramEmbed key={post.id} url={post.url} />
+            <motion.div
+              key={post.id}
+              variants={subtleCardReveal}
+              initial={reduceMotion ? false : "hidden"}
+              whileInView={reduceMotion ? undefined : "visible"}
+              viewport={subtleCardViewport}
+              transition={subtleCardTransition}
+            >
+              <InstagramEmbed url={post.url} />
+            </motion.div>
           ))}
         </section>
       </div>
@@ -24,4 +43,4 @@ function page() {
   );
 }
 
-export default page;
+export default EventsPage;

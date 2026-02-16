@@ -17,8 +17,8 @@ export default function TeamPage() {
           logo="/icons/logo.svg"
         />
         <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9 justify-items-center">
-          {teamMembers.map((member) => (
-            <ProfileCard key={member.id} profile={member} />
+          {teamMembers.map((member, index) => (
+            <ProfileCard key={member.id} profile={member} index={index} />
           ))}
         </section>
       </div>

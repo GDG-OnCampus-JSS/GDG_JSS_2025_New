@@ -1,6 +1,20 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { motion, useReducedMotion } from "framer-motion";
+import {
+  cardScrollReveal,
+  cardScrollViewport,
+  cardScrollTransition,
+  cardHoverLift,
+  cardHoverTransition,
+  imageZoomTransition,
+  imageZoom,
+  iconReveal,
+  iconTransition,
+} from "@/lib/animations";
 
 type Props = {
   profile: {
@@ -13,19 +27,37 @@ type Props = {
     linkedin?: string;
     github?: string;
   };
+  index?: number;
 };
 
-export default function ProfileCard({ profile }: Props) {
+export default function ProfileCard({ profile, index = 0 }: Props) {
+  const reduceMotion = useReducedMotion();
+
   return (
-    <div className="w-full max-w-100 rounded-2xl overflow-hidden shadow-md bg-white relative">
-      <div className="h-90 w-full relative">
+    <motion.div
+      className="w-full max-w-100 rounded-2xl overflow-hidden shadow-md bg-white relative"
+      variants={cardScrollReveal}
+      initial="hidden"
+      whileInView="visible"
+      viewport={cardScrollViewport}
+      transition={{
+        default: {
+          ...cardScrollTransition,
+          delay: reduceMotion ? 0 : index * 0.05,
+        },
+        y: cardHoverTransition,
+        scale: cardHoverTransition,
+      }}
+      whileHover={reduceMotion ? undefined : cardHoverLift}
+    >
+      <motion.div className="h-90 w-full relative">
         <Image
           src={profile.image}
           alt={profile.name}
           fill
           className="object-cover"
         />
-      </div>
+      </motion.div>
       <svg
         viewBox="0 0 360 120"
         preserveAspectRatio="none"
@@ -36,47 +68,64 @@ export default function ProfileCard({ profile }: Props) {
           fill="white"
         />
       </svg>
-      <div className="absolute top-78 left-0 w-full px-5">
+      <div className="absolute top-80 left-0 w-full px-5">
         <div>
           <h2 className="text-2xl font-semibold leading-tight">
             {profile.name}
           </h2>
 
-          <p className=" mt-2 leading-snug text-[#565656] text-[14px] font-light tracking-[0.56px]">
+          <p className="mt-2 leading-snug text-[#565656] text-[14px] font-light tracking-[0.56px]">
             {profile.bio}
           </p>
         </div>
       </div>
-
-      <div className="pt-36 px-5 pb-5 flex items-center justify-between">
+      {/* md:pt-32 */}
+      <div className="pt-36  px-5 pb-5 flex items-center justify-between">
         <p className="text-gray-800 font-medium text-sm">
           {profile.role ? profile.role : profile.batch}
         </p>
 
         <div className="flex gap-3 text-xl">
           {profile.linkedin && (
-            <Link
-              href={profile.linkedin}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-700 hover:text-blue-600"
+            <motion.div
+              variants={iconReveal}
+              initial="initial"
+              whileHover={reduceMotion ? undefined : "hover"}
+              transition={iconTransition}
             >
-              <FaLinkedin />
-            </Link>
+              <Link
+                href={profile.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-700 hover:text-blue-600"
+              >
+                <FaLinkedin />
+              </Link>
+            </motion.div>
           )}
 
           {profile.github && (
-            <Link
-              href={profile.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-700 hover:text-black"
+            <motion.div
+              variants={iconReveal}
+              initial="initial"
+              whileHover={reduceMotion ? undefined : "hover"}
+              transition={{
+                ...iconTransition,
+                delay: 0.05,
+              }}
             >
-              <FaGithub />
-            </Link>
+              <Link
+                href={profile.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-700 hover:text-black"
+              >
+                <FaGithub />
+              </Link>
+            </motion.div>
           )}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
