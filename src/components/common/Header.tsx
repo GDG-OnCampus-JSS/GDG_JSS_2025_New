@@ -5,39 +5,136 @@ import { usePathname } from "next/navigation";
 import clsx from "clsx";
 import { useState } from "react";
 import Image from "next/image";
+import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 import { Button } from "../ui/button";
 import { navLinks } from "@/lib/options";
 import { MenuIcon } from "./MenuIcon";
+import {
+  buttonHover,
+  buttonTap,
+  buttonTransition,
+  navLinkTransition,
+  navUnderlineVariants,
+  mobileMenuPanel,
+  mobileMenuPanelTransition,
+  mobileMenuContainer,
+  mobileMenuItemVariants,
+  connectCardTap,
+  connectCardTapTransition,
+  mobileConnectTransition,
+} from "@/lib/animationVariants";
 
 type NavLinksProps = {
   pathname: string;
   onClick?: () => void;
+  isMobile?: boolean;
 };
 
-function NavLinks({ pathname, onClick }: NavLinksProps) {
+function NavLinks({ pathname, onClick, isMobile = false }: NavLinksProps) {
+  const reduceMotion = useReducedMotion();
+
+  if (isMobile) {
+    return (
+      <motion.div
+        className="flex flex-col gap-4"
+        variants={mobileMenuContainer}
+        initial="hidden"
+        animate="visible"
+        exit="exit"
+      >
+        {navLinks.map((link) => (
+          <motion.div
+            key={link.href}
+            variants={mobileMenuItemVariants}
+            whileTap={reduceMotion ? undefined : connectCardTap}
+            transition={{
+              scale: connectCardTapTransition,
+            }}
+          >
+            <Link
+              href={link.href}
+              onClick={onClick}
+              aria-current={pathname === link.href ? "page" : undefined}
+              className={clsx(
+                "transition-colors text-base cursor-pointer block",
+                pathname === link.href
+                  ? "text-[#202124] font-medium"
+                  : "text-[#565656] font-normal"
+              )}
+            >
+              {link.name}
+            </Link>
+          </motion.div>
+        ))}
+        <motion.div
+          variants={mobileMenuItemVariants}
+          transition={mobileConnectTransition}
+        >
+          <Button
+            onClick={onClick}
+            className="h-10 px-5 mt-2 bg-[#1A73E8] rounded-none flex justify-center items-center gap-2.5 cursor-pointer text-center w-fit text-white text-base font-normal"
+            asChild
+          >
+            <motion.button
+              type="button"
+              whileHover={reduceMotion ? undefined : buttonHover}
+              whileTap={reduceMotion ? undefined : buttonTap}
+              transition={buttonTransition}
+            >
+              Connect
+            </motion.button>
+          </Button>
+        </motion.div>
+      </motion.div>
+    );
+  }
+
   return (
     <>
       {navLinks.map((link) => (
-        <Link
+        <motion.div
           key={link.href}
-          href={link.href}
-          onClick={onClick}
-          aria-current={pathname === link.href ? "page" : undefined}
-          className={clsx(
-            "transition-colors text-base cursor-pointer",
-            pathname === link.href
-              ? "text-[#202124] font-medium"
-              : "text-[#565656] font-normal hover:text-[#1A73E8]"
-          )}
+          className="relative inline-flex"
+          initial="initial"
+          whileHover={reduceMotion ? undefined : "hover"}
         >
-          {link.name}
-        </Link>
+          <Link
+            href={link.href}
+            onClick={onClick}
+            aria-current={pathname === link.href ? "page" : undefined}
+            className={clsx(
+              "transition-colors text-base cursor-pointer",
+              pathname === link.href
+                ? "text-[#202124] font-medium"
+                : "text-[#565656] font-normal hover:text-[#1A73E8]"
+            )}
+          >
+            <span className="relative inline-block">
+              {link.name}
+              {!reduceMotion && (
+                <motion.span
+                  className="absolute left-0 right-0 -bottom-1 h-0.5 origin-left bg-[#1A73E8]"
+                  variants={navUnderlineVariants}
+                  transition={navLinkTransition}
+                />
+              )}
+            </span>
+          </Link>
+        </motion.div>
       ))}
       <Button
         onClick={onClick}
-        className="md:block px-6 bg-blue-600 rounded-none flex justify-center items-center gap-2.5 cursor-pointer text-center w-fit text-white text-base font-normal"
+        className="h-10 px-5 mt-0 py-2 md:block bg-[#1A73E8] rounded-none md:rounded-4xl flex justify-center items-center gap-2.5 cursor-pointer text-center w-fit text-white text-base font-normal"
+        asChild
       >
-        Connect
+        <motion.button
+          type="button"
+          whileHover={reduceMotion ? undefined : buttonHover}
+          whileTap={reduceMotion ? undefined : buttonTap}
+          transition={buttonTransition}
+        >
+          Connect
+        </motion.button>
       </Button>
     </>
   );
@@ -70,43 +167,50 @@ export default function Header() {
       </Button>
 
       <div className="hidden px-1 relative md:flex justify-start items-center gap-6 lg:gap-12">
-        <NavLinks
-          pathname={pathname}
-          onClick={() => setIsMobileMenuOpen(false)}
-        />
+        <NavLinks pathname={pathname} />
       </div>
 
-      {isMobileMenuOpen && (
-        <div className="fixed inset-0 z-50 bg-white px-[8vw] py-4 flex flex-col gap-6 lg:hidden">
-          <div className="flex items-center justify-between">
-            <div className="flex justify-start items-center gap-1">
-              <Image
-                src="/icons/gdsclogo.svg"
-                alt="gdsc logo"
-                width={32}
-                height={32}
-              />
-              <span className="justify-start text-neutral-700 text-base font-normal cursor-pointer">
-                GDG JSSATEN
-              </span>
+      <AnimatePresence>
+        {isMobileMenuOpen && (
+          <motion.div
+            className="fixed inset-0 z-50 bg-white px-[8vw] py-4 flex flex-col gap-6 lg:hidden"
+            variants={mobileMenuPanel}
+            initial="hidden"
+            animate="visible"
+            exit="exit"
+            transition={mobileMenuPanelTransition}
+          >
+            <div className="flex items-center justify-between">
+              <div className="flex justify-start items-center gap-1">
+                <Image
+                  src="/icons/gdsclogo.svg"
+                  alt="gdsc logo"
+                  width={32}
+                  height={32}
+                />
+                <span className="justify-start text-neutral-700 text-base font-normal cursor-pointer">
+                  GDG JSSATEN
+                </span>
+              </div>
+              <Button
+                type="button"
+                title="Close menu"
+                className="bg-white hover:bg-white"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                <MenuIcon className="text-black" isOpen={true} />
+              </Button>
             </div>
-            <Button
-              type="button"
-              title="Close menu"
-              className="bg-white hover:bg-white"
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              <MenuIcon className="text-black" isOpen={true} />
-            </Button>
-          </div>
-          <div className="flex flex-col gap-4 pt-4">
-            <NavLinks
-              pathname={pathname}
-              onClick={() => setIsMobileMenuOpen(false)}
-            />
-          </div>
-        </div>
-      )}
+            <div className="pt-4">
+              <NavLinks
+                pathname={pathname}
+                onClick={() => setIsMobileMenuOpen(false)}
+                isMobile={true}
+              />
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </header>
   );
 }

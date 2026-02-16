@@ -1,10 +1,19 @@
+"use client";
 import Footer from "@/components/common/Footer";
 import Header from "@/components/common/Header";
 import Hero from "@/components/common/Hero";
 import ProjectCard from "@/components/common/ProjectCard";
 import { projects } from "@/lib/projects";
+import { motion, useReducedMotion } from "framer-motion";
+import {
+  subtleCardReveal,
+  subtleCardTransition,
+  subtleCardViewport,
+} from "@/lib/animations";
 
 export default function ProjectsPage() {
+  const reduceMotion = useReducedMotion();
+
   return (
     <>
       <Header />
@@ -16,7 +25,16 @@ export default function ProjectsPage() {
         />
         <section className="flex flex-col gap-16 justify-center items-center lg:pt-4">
           {projects.map((project) => (
-            <ProjectCard key={project.id} project={project} />
+            <motion.div
+              key={project.id}
+              variants={subtleCardReveal}
+              initial={reduceMotion ? false : "hidden"}
+              whileInView={reduceMotion ? undefined : "visible"}
+              viewport={subtleCardViewport}
+              transition={subtleCardTransition}
+            >
+              <ProjectCard project={project} />
+            </motion.div>
           ))}
         </section>
       </div>

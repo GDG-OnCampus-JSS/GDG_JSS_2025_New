@@ -18,7 +18,7 @@ export const socialLinks = [
     description: "For detailed inquiries or formal communication.",
     icon: "/icons/mail.svg",
     iconColor: "text-red-500",
-    href: "mailto:gdg.jssaten@gmail.com",
+    href: "mailto:dscjssnoida@gmail.com",
   },
   {
     title: "LinkedIn",
@@ -37,12 +37,32 @@ export const navLinks = [
   { name: "Alumni", href: "/alumni" },
 ];
 
-export const carouselEvents = Array.from({ length: 6 }).map(() => ({
-  title: "Sorted 2025",
-  description:
-    "Short description here. A launchpad for turning ideas into intuitive apps.",
-  image: "/event.jpg",
-}));
+export const carouselEvents = [
+  {
+    title: "Android Study Jams",
+    description:
+      "From zero to your first Android app in 2 days. That's what Android Study Jams is all about — mastering Kotlin basics and building real apps.",
+    image: "/events/android.png",
+  },
+  {
+    title: "Sorted 2025",
+    description:
+      "Three days. Five domains. One goal - helping beginners master the fundamentals and get confidently Sorted.",
+    image: "/events/Sorted.png",
+  },
+  {
+    title: "Android Study Jams",
+    description:
+      "From zero to your first Android app in 2 days. That's what Android Study Jams is all about — mastering Kotlin basics and building real apps.",
+    image: "/events/android.png",
+  },
+  {
+    title: "Crack the Shell",
+    description:
+      "The shell looks tough - but can you break it? Crack The Shell is a programming battle where logic meets speed and every line of code counts.",
+    image: "/events/cts.png",
+  },
+];
 
 export const footerLinks = [
   {

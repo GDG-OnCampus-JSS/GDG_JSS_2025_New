@@ -1,4 +1,18 @@
+"use client";
+
 import Image from "next/image";
+import { motion, useReducedMotion } from "framer-motion";
+import {
+  cardHover,
+  cardTransition,
+  connectCardTap,
+  connectCardTapTransition,
+} from "@/lib/animationVariants";
+import {
+  subtleCardReveal,
+  subtleCardTransition,
+  subtleCardViewport,
+} from "@/lib/animations";
 type Props = {
   icon: string;
   title: string;
@@ -6,12 +20,26 @@ type Props = {
 };
 
 export default function SocialLinkCard({ icon, title, description }: Props) {
+  const reduceMotion = useReducedMotion();
+
   return (
-    <div
-      className=" w-full p-5 rounded-[15px]
+    <motion.div
+      className="connect-card w-full p-5 rounded-[15px]
       border border-[#EBEBEB]
       bg-[#F9F9F9]
     "
+      variants={subtleCardReveal}
+      initial={reduceMotion ? false : "hidden"}
+      whileInView={reduceMotion ? undefined : "visible"}
+      viewport={subtleCardViewport}
+      whileHover={reduceMotion ? undefined : cardHover}
+      whileTap={reduceMotion ? undefined : connectCardTap}
+      transition={{
+        ...cardTransition,
+        opacity: subtleCardTransition,
+        y: subtleCardTransition,
+        scale: connectCardTapTransition,
+      }}
     >
       <div className="flex items-center gap-7">
         <div className="w-12 h-12 flex items-center justify-center rounded-lg ">
@@ -28,6 +56,6 @@ export default function SocialLinkCard({ icon, title, description }: Props) {
           </p>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
