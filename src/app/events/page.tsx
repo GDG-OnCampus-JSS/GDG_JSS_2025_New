@@ -30,7 +30,7 @@ function EventsPage() {
               variants={subtleCardReveal}
               initial={reduceMotion ? false : "hidden"}
               whileInView={reduceMotion ? undefined : "visible"}
-              viewport={subtleCardViewport}
+              viewport={{ ...subtleCardViewport, once: true }}
               transition={subtleCardTransition}
             >
               <InstagramEmbed url={post.url} />

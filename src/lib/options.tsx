@@ -45,22 +45,28 @@ export const carouselEvents = [
     image: "/events/android.png",
   },
   {
-    title: "Sorted 2025",
+    title: "Line Up",
     description:
-      "Three days. Five domains. One goal - helping beginners master the fundamentals and get confidently Sorted.",
-    image: "/events/Sorted.png",
-  },
-  {
-    title: "Android Study Jams",
-    description:
-      "From zero to your first Android app in 2 days. That's what Android Study Jams is all about — mastering Kotlin basics and building real apps.",
-    image: "/events/android.png",
+      "Think you can find your friends faster than anyone else? Line Up lets you scan QR codes and locate them on a radar system to collect points and climb the leaderboard.",
+    image: "/events/lineup.png",
   },
   {
     title: "Crack the Shell",
     description:
       "The shell looks tough - but can you break it? Crack The Shell is a programming battle where logic meets speed and every line of code counts.",
     image: "/events/cts.png",
+  },
+  {
+    title: "Sorted 2025",
+    description:
+      "Three days. Five domains. One goal - helping beginners master the fundamentals and get confidently Sorted.",
+    image: "/events/Sorted.png",
+  },
+  {
+    title: "Doodles",
+    description:
+      "Sketch it. Shape it. Show it.Doodles is a design-focused event where students bring their creativity to life through original logo concepts.",
+    image: "/events/doodle.png",
   },
 ];
 

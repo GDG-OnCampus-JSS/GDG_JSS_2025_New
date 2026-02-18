@@ -82,7 +82,7 @@ export default function ProjectCard({ project }: Props) {
           className="w-full lg:w-100 h-60 lg:h-90 relative"
           initial={reduceMotion ? undefined : "hidden"}
           whileInView={reduceMotion ? undefined : "visible"}
-          viewport={{ amount: 0.2 }}
+          viewport={{ amount: 0.2, once: true }}
           variants={projectImageEnter}
           transition={projectImageTransition}
           whileHover={reduceMotion ? undefined : projectImageHover}
@@ -98,7 +98,7 @@ export default function ProjectCard({ project }: Props) {
           className="py-2 w-full lg:w-140 text-center lg:text-left"
           initial={reduceMotion ? undefined : "hidden"}
           whileInView={reduceMotion ? undefined : "visible"}
-          viewport={{ amount: 0.2 }}
+          viewport={{ amount: 0.2, once: true }}
           variants={projectContentEnter}
           transition={projectContentTransition}
         >
@@ -118,7 +118,7 @@ export default function ProjectCard({ project }: Props) {
                 className="inline-flex w-25 h-8 px-3 py-1.5 rounded-lg outline-[0.76px] gap-2.5 justify-center items-center"
                 initial={reduceMotion ? undefined : "hidden"}
                 whileInView={reduceMotion ? undefined : "visible"}
-                viewport={{ amount: 0.2 }}
+                viewport={{ amount: 0.2, once: true }}
                 variants={techPillEnter}
                 transition={{
                   duration: 0.4,

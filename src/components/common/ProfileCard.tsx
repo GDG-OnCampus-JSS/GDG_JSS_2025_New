@@ -37,9 +37,9 @@ export default function ProfileCard({ profile, index = 0 }: Props) {
     <motion.div
       className="w-full max-w-100 rounded-2xl overflow-hidden shadow-md bg-white relative"
       variants={cardScrollReveal}
-      initial="hidden"
-      whileInView="visible"
-      viewport={cardScrollViewport}
+      initial={reduceMotion ? false : "hidden"}
+      whileInView={reduceMotion ? undefined : "visible"}
+      viewport={{ ...cardScrollViewport, once: true }}
       transition={{
         default: {
           ...cardScrollTransition,

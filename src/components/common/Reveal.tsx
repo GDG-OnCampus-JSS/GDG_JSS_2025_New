@@ -23,7 +23,7 @@ export default function Reveal({ children, className }: RevealProps) {
       variants={fadeInUp}
       initial="hidden"
       whileInView="visible"
-      viewport={fadeInViewport}
+      viewport={{ ...fadeInViewport, once: true }}
       transition={fadeInTransition}
     >
       {children}

@@ -24,7 +24,7 @@ const WhatWeDo = () => {
         variants={subtleCardContainer}
         initial={reduceMotion ? false : "hidden"}
         whileInView={reduceMotion ? undefined : "visible"}
-        viewport={subtleCardViewport}
+        viewport={{ ...subtleCardViewport, once: true }}
       >
         {/*Design */}
         <motion.div

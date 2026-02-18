@@ -31,7 +31,7 @@ export default function SocialLinkCard({ icon, title, description }: Props) {
       variants={subtleCardReveal}
       initial={reduceMotion ? false : "hidden"}
       whileInView={reduceMotion ? undefined : "visible"}
-      viewport={subtleCardViewport}
+      viewport={{ ...subtleCardViewport, once: true }}
       whileHover={reduceMotion ? undefined : cardHover}
       whileTap={reduceMotion ? undefined : connectCardTap}
       transition={{
