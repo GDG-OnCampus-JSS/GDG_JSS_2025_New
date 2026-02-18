@@ -50,11 +50,6 @@ const projectImageHover = {
   scale: 1.03,
 };
 
-const projectImageHoverTransition = {
-  duration: 0.3,
-  ease: easeOut,
-};
-
 const projectButtonHover = {
   scale: 1.05,
 };

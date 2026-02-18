@@ -10,8 +10,6 @@ import {
   cardScrollTransition,
   cardHoverLift,
   cardHoverTransition,
-  imageZoomTransition,
-  imageZoom,
   iconReveal,
   iconTransition,
 } from "@/lib/animations";
