@@ -16,7 +16,7 @@ export const alumniMembers: Alumni[] = [
     bio: "Data Structure and Algorithm and a Web Enthusiast. Exploring various technologies in web development.",
     linkedin: "https://www.linkedin.com/in/piyush-gupta-536097219",
     github: "https://github.com/piug-07",
-    image: "/icons/l",
+    image: "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771443897/piyushsir_dts5gd.jpg",
   },
   {
     id: "2",
@@ -36,7 +36,7 @@ export const alumniMembers: Alumni[] = [
     linkedin: "https://www.linkedin.com/in/yash-tiwari-966648158/",
     github: "https://github.com/tiwari74",
     image:
-      "https://res.cloudinary.com/dhkxbgwmt/image/upload/v1696755424/Profile%20Photo%20%28File%20responses%29/yehn5zcn74np2hjh5g1j.jpg",
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771443891/yashsir_l4wiqi.jpg",
   },
   {
     id: "4",
@@ -46,7 +46,7 @@ export const alumniMembers: Alumni[] = [
     linkedin: "https://www.linkedin.com/in/shagun-chahar",
     github: "https://github.com/shags8",
     image:
-      "https://res.cloudinary.com/dhkxbgwmt/image/upload/v1696706289/Profile%20Photo%20%28File%20responses%29/p3b5jn7f3pqw1xlp9btt.jpg",
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771443895/shagunsir_deuxzc.jpg",
   },
   {
     id: "5",
@@ -56,7 +56,7 @@ export const alumniMembers: Alumni[] = [
     linkedin: "https://www.linkedin.com/in/ashishkingdom/",
     github: "https://github.com/AshishKingdom",
     image:
-      "https://res.cloudinary.com/dhkxbgwmt/image/upload/v1696706288/Profile%20Photo%20%28File%20responses%29/ed2fhrc9z0z3u1scfsjz.jpg",
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771443891/ashishsir_cavnkw.jpg",
   },
   {
     id: "6",
@@ -76,7 +76,7 @@ export const alumniMembers: Alumni[] = [
     linkedin: "https://www.linkedin.com/in/rishita-jayant/",
     github: "https://github.com/Rish-02",
     image:
-      "https://res.cloudinary.com/dhkxbgwmt/image/upload/v1696755734/Profile%20Photo%20%28File%20responses%29/iyvnjki3rcqfh1aewmeu.jpg",
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771444179/rishitamaam_f9d3oc.jpg",
   },
   {
     id: "8",
@@ -86,7 +86,7 @@ export const alumniMembers: Alumni[] = [
     linkedin: "https://www.linkedin.com/in/vrishhti-goel-58aa1b218/",
     github: "https://github.com/Vrishhti",
     image:
-      "https://res.cloudinary.com/dhkxbgwmt/image/upload/v1696793000/Profile%20Photo%20%28File%20responses%29/o8qktkfjwqaaomonxgqe.jpg",
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771444795/vrisshtimaam_b21ajb.jpg",
   },
   {
     id: "9",
@@ -96,7 +96,7 @@ export const alumniMembers: Alumni[] = [
     linkedin: "https://www.linkedin.com/in/anubhavpal",
     github: "https://github.com/Anubhav-Pal",
     image:
-      "https://res.cloudinary.com/dhkxbgwmt/image/upload/v1696706296/Profile%20Photo%20%28File%20responses%29/bxqtbrghraktx8e0hxwo.jpg",
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771444177/anubhavsir_csn2kt.webp",
   },
   {
     id: "10",
@@ -116,7 +116,7 @@ export const alumniMembers: Alumni[] = [
     linkedin: "https://www.linkedin.com/in/abhishek-sharma-2a3764252",
     github: "https://github.com/AbhiSharma096",
     image:
-      "https://res.cloudinary.com/dhkxbgwmt/image/upload/v1696828996/Profile%20Photo%20%28File%20responses%29/cipa42pdrrtqfi8lecwg.jpg",
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771445445/abhisheksir_wrkwss.jpg",
   },
   {
     id: "12",
@@ -136,7 +136,7 @@ export const alumniMembers: Alumni[] = [
     linkedin: "https://www.linkedin.com/in/nevish302",
     github: "https://github.com/Nevish-302",
     image:
-      "https://res.cloudinary.com/dhkxbgwmt/image/upload/v1696793001/Profile%20Photo%20%28File%20responses%29/dtrv6esyst9usof6qa2a.jpg",
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771444797/shivensir_arl0s6.jpg",
   },
   {
     id: "14",
@@ -146,7 +146,7 @@ export const alumniMembers: Alumni[] = [
     linkedin: "https://www.linkedin.com/in/yatendra-upadhyay-33b84a202/",
     github: "https://github.com/Upadhyay-Yatendra",
     image:
-      "https://res.cloudinary.com/dhkxbgwmt/image/upload/v1696706317/Profile%20Photo%20%28File%20responses%29/ixuxxqwfsavnaf92xpxf.jpg",
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771444790/yatendrasir_bqvljv.jpg",
   },
   {
     id: "15",
@@ -156,7 +156,7 @@ export const alumniMembers: Alumni[] = [
     linkedin: "https://www.linkedin.com/in/nitish-kumar-gupta-a84487188",
     github: "https://github.com/nitish12rm",
     image:
-      "https://res.cloudinary.com/dhkxbgwmt/image/upload/v1696778966/Profile%20Photo%20%28File%20responses%29/ql0nyjbru2qgsxzrmawj.jpg",
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771444792/nitishsir_cluppm.jpg",
   },
   {
     id: "16",
@@ -166,7 +166,7 @@ export const alumniMembers: Alumni[] = [
     linkedin: "https://www.linkedin.com/in/smriti-singh-91270627b/",
     github: "https://www.behance.net/smritisingh28",
     image:
-      "https://res.cloudinary.com/dhkxbgwmt/image/upload/v1696759683/Profile%20Photo%20%28File%20responses%29/kltebtdyugyqdux5pnpf.png",
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771444788/smiritmam_jryo9b.jpg",
   },
   {
     id: "17",
@@ -176,7 +176,7 @@ export const alumniMembers: Alumni[] = [
     linkedin: "https://www.linkedin.com/in/deepanshu-pandey-a16155233/",
     github: "https://github.com/simplybest12",
     image:
-      "https://res.cloudinary.com/dhkxbgwmt/image/upload/v1696706306/Profile%20Photo%20%28File%20responses%29/nlz5vjrra4wwtkxcwnku.jpg",
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771444785/deepanshusir_kzq0y8.jpg",
   },
   {
     id: "18",
@@ -186,7 +186,7 @@ export const alumniMembers: Alumni[] = [
     linkedin: "https://www.linkedin.com/in/yuvraj-singh-yadav-aa9488140/",
     github: "https://github.com/yyuvraj54",
     image:
-      "https://res.cloudinary.com/dhkxbgwmt/image/upload/v1696706292/Profile%20Photo%20%28File%20responses%29/e2sla1x3fwpboncsgilk.png",
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771445570/yuvrajsir_gdabgf.jpg",
   },
   {
     id: "19",
@@ -196,7 +196,7 @@ export const alumniMembers: Alumni[] = [
     linkedin: "https://www.linkedin.com/in/mittalbhavya1729",
     github: "https://github.com/MITTALBHAVYA",
     image:
-      "https://res.cloudinary.com/dhkxbgwmt/image/upload/v1696706289/Profile%20Photo%20%28File%20responses%29/oqi3awcpfpwkmyt3mogk.jpg",
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771445446/bhavyasir_nd0mlm.jpg",
   },
   {
     id: "20",
@@ -206,7 +206,7 @@ export const alumniMembers: Alumni[] = [
     linkedin: "https://www.linkedin.com/in/iamshubhransh/",
     github: "https://github.com/iamshubhransh/",
     image:
-      "https://res.cloudinary.com/dhkxbgwmt/image/upload/v1702906126/Profile%20Photo%20%28File%20responses%29/shubhransh_sir_bvlqe2.jpg",
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771443890/shubhranshsir_hbzgep.png",
   },
   {
     id: "21",
@@ -236,7 +236,7 @@ export const alumniMembers: Alumni[] = [
     linkedin: "https://www.linkedin.com/in/sat02yam",
     github: "https://github.com/Sat02yam/",
     image:
-      "https://res.cloudinary.com/dhkxbgwmt/image/upload/v1696706291/Profile%20Photo%20%28File%20responses%29/ntbu3fefgkb7ahuysyxb.png",
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771445450/satyamsir_obyrwx.jpg",
   },
   {
     id: "24",
@@ -257,7 +257,7 @@ export const alumniMembers: Alumni[] = [
     linkedin: "https://www.linkedin.com/in/pankhuri-srivastava-2001/",
     github: "https://github.com/srivasPankhuri",
     image:
-      "https://res.cloudinary.com/dhkxbgwmt/image/upload/v1696706287/Profile%20Photo%20%28File%20responses%29/bjbij2ckuvtd5p1ctvgx.jpg",
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771445453/pankhurimaam_pjdsun.jpg",
   },
   {
     id: "26",

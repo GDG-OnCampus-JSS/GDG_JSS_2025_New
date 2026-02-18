@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub,FaLink } from "react-icons/fa";
 import { motion, useReducedMotion } from "framer-motion";
 import {
   cardScrollReveal,
@@ -24,6 +24,7 @@ type Props = {
     image: string;
     linkedin?: string;
     github?: string;
+    otherLink?: string;
   };
   index?: number;
 };
@@ -119,6 +120,26 @@ export default function ProfileCard({ profile, index = 0 }: Props) {
                 className="text-gray-700 hover:text-black"
               >
                 <FaGithub />
+              </Link>
+            </motion.div>
+          )}
+          {profile.otherLink && (
+            <motion.div
+              variants={iconReveal}
+              initial="initial"
+              whileHover={reduceMotion ? undefined : "hover"}
+              transition={{
+                ...iconTransition,
+                delay: 0.05,
+              }}
+            >
+              <Link
+                href={profile.otherLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-700 hover:text-black"
+              >
+                <FaLink />
               </Link>
             </motion.div>
           )}
