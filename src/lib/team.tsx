@@ -15,7 +15,7 @@ export const teamMembers: TeamMember[] = [
     name: "Ramit Vishwakarma",
     role: "GDG Lead",
     bio: "Java || Competitive Programmer || Full Stack Web Developer.",
-    linkedin: "https://www.linkedin.com/in/ramitvishwakarma/",
+    linkedin: "https://www.linkedin.com/in/vishwakarmaramit/",
     github: "https://github.com/RamitVishwakarma",
     image:
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771527405/RamitSir_hwswg8.jpg",

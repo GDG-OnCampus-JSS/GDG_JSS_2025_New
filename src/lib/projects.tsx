@@ -19,7 +19,7 @@ export const projects: Project[] = [
     description:
       "GDSC Recruitment Platform is an intelligent solution designed to streamline and simplify the recruitment process. With GDSC Recruitment Platform, students can register and apply for recruitment test.",
     image: "https://i.ibb.co/KLPYYz6/recruitment.png",
-    projectLink: "https://gdscjss.in/projects",
+    projectLink: "https://github.com/GDG-OnCampus-JSS/GDG_Recruitment_Platform_Frontend_2026",
     techStack: [
       { NextJs: "logos:nextjs-icon" },
       { NodeJs: "logos:nodejs-icon" },
@@ -35,23 +35,11 @@ export const projects: Project[] = [
       "It is a game where one has to find his team members in college during the Zealicon using GPS. It is an interactive game played by a lot of students.",
     image: "https://i.ibb.co/94ZqF3P/Line-up.png",
     projectLink: "https://github.com/DSC-JSS-NOIDA/Line-up",
-    techStack: [{ Java: "logos:java" }, { Firebase: "devicon:firebase" }],
+    techStack: [{ Kotlin: "logos:kotlin-icon"}, { Firebase: "devicon:firebase" }],
     bgColor: "bg-[#F4B400]",
   },
   {
     id: "3",
-    domain: "Website",
-    year: "2023",
-    title: "Hola",
-    description:
-      "Hola connects students with alumni for valuable guidance and mentorship. Students can tap into alumni wisdom and expertise for career advice, mentorship, or connecting with those who have walked the same path.",
-    image: "https://i.ibb.co/bFtrTkV/hola.png",
-    projectLink: "https://gdscjss.in/projects",
-    techStack: [{ React: "logos:react" }],
-    bgColor: "bg-[#4285F4]",
-  },
-  {
-    id: "4",
     domain: "App",
     year: "2020",
     title: "Zealicon App 2020",
@@ -66,7 +54,7 @@ export const projects: Project[] = [
     bgColor: "bg-[#0F9D58]",
   },
   {
-    id: "5",
+    id: "4",
     domain: "Website",
     year: "2020",
     title: "GDSC Folios",
@@ -82,7 +70,7 @@ export const projects: Project[] = [
     bgColor: "bg-[#DB4437]",
   },
   {
-    id: "6",
+    id: "5",
     domain: "App",
     year: "2020",
     title: "Plasma Donor App",
@@ -97,7 +85,7 @@ export const projects: Project[] = [
     bgColor: "bg-[#F4B400]",
   },
   {
-    id: "7",
+    id: "6",
     domain: "App",
     year: "2020",
     title: "Evento",
@@ -112,7 +100,7 @@ export const projects: Project[] = [
     bgColor: "bg-[#4285F4]",
   },
   {
-    id: "8",
+    id: "7",
     domain: "App",
     year: "2020",
     title: "Udhaari",
@@ -124,7 +112,7 @@ export const projects: Project[] = [
     bgColor: "bg-[#0F9D58]",
   },
   {
-    id: "9",
+    id: "8",
     domain: "App",
     year: "2020",
     title: "Sudoku",
@@ -139,7 +127,7 @@ export const projects: Project[] = [
     bgColor: "bg-[#DB4437]",
   },
   {
-    id: "10",
+    id: "9",
     domain: "Backend",
     year: "2020",
     title: "Foss Events",
@@ -154,7 +142,7 @@ export const projects: Project[] = [
     bgColor: "bg-[#F4B400]",
   },
   {
-    id: "11",
+    id: "10",
     domain: "Website",
     year: "2020",
     title: "Snappify",
