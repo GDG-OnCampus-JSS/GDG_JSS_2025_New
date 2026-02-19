@@ -70,20 +70,18 @@ function NavLinks({ pathname, onClick, isMobile = false }: NavLinksProps) {
           variants={mobileMenuItemVariants}
           transition={mobileConnectTransition}
         >
-          <Button
+          
+            <Link href="https://www.instagram.com/gdgoncampus.jss">
+          <motion.button
             onClick={onClick}
             className="h-10 px-5 mt-2 bg-[#1A73E8] rounded-none flex justify-center items-center gap-2.5 cursor-pointer text-center w-fit text-white text-base font-normal"
-            asChild
-          >
-            <motion.button
-              type="button"
-              whileHover={reduceMotion ? undefined : buttonHover}
-              whileTap={reduceMotion ? undefined : buttonTap}
-              transition={buttonTransition}
-            >
-              Connect
-            </motion.button>
-          </Button>
+            type="button"
+            whileHover={reduceMotion ? undefined : buttonHover}
+            whileTap={reduceMotion ? undefined : buttonTap}
+            transition={buttonTransition}
+            
+          >Connect</motion.button>
+            </Link>
         </motion.div>
       </motion.div>
     );
@@ -122,12 +120,10 @@ function NavLinks({ pathname, onClick, isMobile = false }: NavLinksProps) {
           </Link>
         </motion.div>
       ))}
-      <Button
-        onClick={onClick}
-        className="h-10 px-5 mt-0 py-2 md:block bg-[#1A73E8] rounded-none md:rounded-4xl flex justify-center items-center gap-2.5 cursor-pointer text-center w-fit text-white text-base font-normal"
-        asChild
-      >
+      <Link href="https://www.instagram.com/gdgoncampus.jss">
         <motion.button
+          onClick={onClick}
+          className="h-10 px-5 mt-0 py-2 md:block bg-[#1A73E8] rounded-none md:rounded-4xl flex justify-center items-center gap-2.5 cursor-pointer text-center w-fit text-white text-base font-normal"
           type="button"
           whileHover={reduceMotion ? undefined : buttonHover}
           whileTap={reduceMotion ? undefined : buttonTap}
@@ -135,7 +131,7 @@ function NavLinks({ pathname, onClick, isMobile = false }: NavLinksProps) {
         >
           Connect
         </motion.button>
-      </Button>
+      </Link>
     </>
   );
 }

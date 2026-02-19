@@ -67,7 +67,7 @@ export default function ProfileCard({ profile, index = 0 }: Props) {
           fill="white"
         />
       </svg>
-      <div className="absolute top-80 left-0 w-full px-5">
+      <div className="absolute top-82 left-0 w-full px-5">
         <div>
           <h2 className="text-2xl font-semibold leading-tight">
             {profile.name}

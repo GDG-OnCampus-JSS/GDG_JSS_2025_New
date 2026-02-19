@@ -323,17 +323,17 @@ const Hero = ({ title, desc, logo }: Props) => {
               {desc}
             </p>
           </div>
-          <motion.button
-            type="button"
-            className="rounded-[44px] bg-[#1A73E8] py-2 px-6 text-white"
-            whileHover={reduceMotion ? undefined : buttonHover}
-            whileTap={reduceMotion ? undefined : buttonTap}
-            transition={buttonTransition}
-          >
-            <Link href="https://chat.whatsapp.com/GlGpGEgOrlm2QwbkjnDE6V">
+          <Link href="https://chat.whatsapp.com/GlGpGEgOrlm2QwbkjnDE6V">
+            <motion.button
+              type="button"
+              className="rounded-[44px] bg-[#1A73E8] py-2 px-6 text-white"
+              whileHover={reduceMotion ? undefined : buttonHover}
+              whileTap={reduceMotion ? undefined : buttonTap}
+              transition={buttonTransition}
+            >
               Join Community
-            </Link>
-          </motion.button>
+            </motion.button>
+          </Link>
         </div>
         <div className="w-full max-w-119">
           {logo === "/icons/logo.svg" ? (

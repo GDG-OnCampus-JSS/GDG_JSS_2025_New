@@ -16,9 +16,14 @@ export default function TeamPage() {
           a shared passion for innovation"
           logo="/icons/logo.svg"
         />
-        <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9 justify-items-center">
+        <section className="flex flex-wrap justify-center gap-9">
           {teamMembers.map((member, index) => (
-            <ProfileCard key={member.id} profile={member} index={index} />
+            <div
+              key={member.id}
+              className="w-full sm:w-[calc(50%-1.125rem)] lg:w-[calc((100%-4.5rem)/3)] max-w-100"
+            >
+              <ProfileCard profile={member} index={index} />
+            </div>
           ))}
         </section>
       </div>

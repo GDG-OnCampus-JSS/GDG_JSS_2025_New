@@ -163,16 +163,6 @@ export const teamMembers: TeamMember[] = [
   },
   {
     id: "16",
-    name: "Abhinav Gupta",
-    role: "Web Lead",
-    bio: "Not all who wander are lost, some are just looking for better documentation.",
-    image:
-      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771436506/Photo_-_Abhinav_Gupta_nguh3d.jpg",
-    linkedin: "https://www.linkedin.com/in/abhinav-gupta-3580a72aa",
-    github: "https://github.com/AbhinavG786",
-  },
-  {
-    id: "17",
     name: "Adya Singh",
     role: "Android Lead",
     bio: "Android developer building real-world apps and exploring GenAI.",
@@ -181,7 +171,18 @@ export const teamMembers: TeamMember[] = [
     linkedin: "https://www.linkedin.com/in/adya-singh-/",
     github: "https://github.com/Adya-04/",
   },
-    {
+  {
+    id: "17",
+    name: "Abhinav Gupta",
+    role: "Web Lead",
+    bio: "Not all who wander are lost, some are just looking for better documentation.",
+    image:
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771436506/Photo_-_Abhinav_Gupta_nguh3d.jpg",
+    linkedin: "https://www.linkedin.com/in/abhinav-gupta-3580a72aa",
+    github: "https://github.com/AbhinavG786",
+  },
+
+  {
     id: "18",
     name: "Shobhit keshari",
     role: "Design Lead",
@@ -190,7 +191,7 @@ export const teamMembers: TeamMember[] = [
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435505/IMG-20251222-WA0010_-_Shobhit_Keshari_omstec.jpg",
     linkedin: "https://www.linkedin.com/in/shobhit-keshari",
   },
-   {
+  {
     id: "19",
     name: "Abhay Shukla",
     role: "ML Lead",
@@ -220,18 +221,9 @@ export const teamMembers: TeamMember[] = [
     linkedin: "https://www.linkedin.com/in/ayushi-shahi-2907b0297/",
     github: "https://github.com/ayushi-shahi",
   },
+
   {
     id: "22",
-    name: "Divyanshi Sharma",
-    role: "Web Developer",
-    bio: "Building the future, one deployment at a time.",
-    image:
-      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435493/IMG-20241230-WA0267_4_-_Divya_Sharma_vkv9vf.jpg",
-    linkedin: "https://url-shortener.me/CZTG",
-    github: "https://github.com/Missdivyaa",
-  },
-  {
-    id: "23",
     name: "Avinash Kumar Ankur",
     role: "Web Developer",
     bio: "link dena kuch short, punchy sa. ya fir batata hu baad me 😗",
@@ -241,17 +233,7 @@ export const teamMembers: TeamMember[] = [
     github: "https://github.com/avinashankur",
   },
   {
-    id: "24",
-    name: "Vyom Sehgal",
-    role: "Designer",
-    bio: "I’ve been designing since my first year, and ever since, I’ve been developing a taste for clean, intentional, and thoughtful experiences.",
-    image:
-      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435510/vyom_sehgal_-_vyom_sehgal_cqkshy.jpg",
-    linkedin: "https://www.linkedin.com/in/vyom-sehgal/",
-    otherLink: "https://vyomsehgal.framer.website",
-  },
-  {
-    id: "25",
+    id: "23",
     name: "Tanu Agarwal",
     role: "Web Developer",
     bio: "Focused on solving real problems with practical, scalable software and a mindset of continuous growth.",
@@ -261,7 +243,17 @@ export const teamMembers: TeamMember[] = [
     github: "https://www.github.com/tanu-agarwal0101",
   },
   {
-    id: "26",
+    id: "24",
+    name: "Divyanshi Sharma",
+    role: "Web Developer",
+    bio: "Building the future, one deployment at a time.",
+    image:
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435493/IMG-20241230-WA0267_4_-_Divya_Sharma_vkv9vf.jpg",
+    linkedin: "https://url-shortener.me/CZTG",
+    github: "https://github.com/Missdivyaa",
+  },
+  {
+    id: "25",
     name: "Agrim Gupta",
     role: "Web Developer",
     bio: "Full-stack dev building real AI + web apps in production. I care about clean code, scale, performance.",
@@ -269,6 +261,16 @@ export const teamMembers: TeamMember[] = [
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435470/IMG_1738_-_Agrim_Gupta_y4fp9z.jpg",
     linkedin: "https://www.linkedin.com/in/agrim-gupta08",
     github: "https://github.com/agrim08",
+  },
+  {
+    id: "26",
+    name: "Vyom Sehgal",
+    role: "Designer",
+    bio: "I’ve been designing since my first year, and ever since, I’ve been developing a taste for clean, intentional, and thoughtful experiences.",
+    image:
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435510/vyom_sehgal_-_vyom_sehgal_cqkshy.jpg",
+    linkedin: "https://www.linkedin.com/in/vyom-sehgal/",
+    otherLink: "https://vyomsehgal.framer.website",
   },
   {
     id: "27",

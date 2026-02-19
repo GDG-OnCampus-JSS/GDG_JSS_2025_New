@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion, useReducedMotion } from "framer-motion";
 import { cardHover, cardTransition } from "@/lib/animationVariants";
+import { Icon } from "@iconify/react";
 
 const easeOut: [number, number, number, number] = [0, 0, 0.2, 1];
 
@@ -17,6 +18,7 @@ type Props = {
     image: string;
     projectLink: string;
     techStack?: { [key: string]: string }[];
+    bgColor: string;
   };
 };
 
@@ -74,7 +76,7 @@ export default function ProjectCard({ project }: Props) {
     >
       <div className="flex flex-col lg:inline-flex lg:flex-row gap-6">
         <motion.div
-          className="w-full lg:w-100 h-60 lg:h-90 relative"
+          className={`w-full lg:w-100 h-60 lg:h-90 relative ${project.bgColor}`}
           initial={reduceMotion ? undefined : "hidden"}
           whileInView={reduceMotion ? undefined : "visible"}
           viewport={{ amount: 0.2, once: true }}
@@ -121,11 +123,10 @@ export default function ProjectCard({ project }: Props) {
                   delay: 0.1 + id * 0.08,
                 }}
               >
-                <Image
-                  src={Object.values(tech)[0]}
-                  alt={Object.keys(tech)[0]}
-                  width={20}
-                  height={8}
+                <Icon
+                  icon={Object.values(tech)[0]}
+                  width={24}
+                  height={24}
                 />
                 <p className=" text-Primary text-base font-bold font-ProductSans">
                   {Object.keys(tech)[0]}

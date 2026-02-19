@@ -12,6 +12,7 @@ const nextConfig: NextConfig = {
       "avatars3.githubusercontent.com",
       "user-images.githubusercontent.com",
       "media.licdn.com",
+      "i.ibb.co",
     ],
   },
 };

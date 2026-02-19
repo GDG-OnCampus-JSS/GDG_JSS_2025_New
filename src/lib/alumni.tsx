@@ -11,35 +11,6 @@ export interface Alumni {
 export const alumniMembers: Alumni[] = [
   {
     id: "1",
-    name: "Piyush Gupta",
-    batch: "2025",
-    bio: "Data Structure and Algorithm and a Web Enthusiast. Exploring various technologies in web development.",
-    linkedin: "https://www.linkedin.com/in/piyush-gupta-536097219",
-    github: "https://github.com/piug-07",
-    image: "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771443897/piyushsir_dts5gd.jpg",
-  },
-  {
-    id: "2",
-    name: "Rudrakshita",
-    batch: "2025",
-    bio: "Spearheading user-friendly designs and maintaining visual consistency. My role revolves around crafting engaging experiences for various projects, all within the GDSC ecosystem",
-    linkedin: "https://www.linkedin.com/in/rudrakshita-prasad-4a7041258/",
-    github: "https://www.behance.net/rudyyy2102",
-    image:
-      "https://res.cloudinary.com/dhkxbgwmt/image/upload/v1696706287/Profile%20Photo%20%28File%20responses%29/urnabf4ceig3ldbw5rkm.jpg",
-  },
-  {
-    id: "3",
-    name: "Yash Tiwari",
-    batch: "2025",
-    bio: "Developing to Develop !",
-    linkedin: "https://www.linkedin.com/in/yash-tiwari-966648158/",
-    github: "https://github.com/tiwari74",
-    image:
-      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771443891/yashsir_l4wiqi.jpg",
-  },
-  {
-    id: "4",
     name: "Shagun Chahar",
     batch: "2025",
     bio: "Building smarter applications for smarter users.",
@@ -49,7 +20,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771443895/shagunsir_deuxzc.jpg",
   },
   {
-    id: "5",
+    id: "2",
     name: "Ashish Kushwaha",
     batch: "2025",
     bio: "ML Lead | Backend Dev | Competitive Programmer",
@@ -59,7 +30,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771443891/ashishsir_cavnkw.jpg",
   },
   {
-    id: "6",
+    id: "3",
     name: "Om Gupta",
     batch: "2025",
     bio: "Competitive Programmer | DSA | WEB DEV | Open Source.",
@@ -69,7 +40,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/diupnvqvv/image/upload/v1668181921/00C86C0C-D1DC-4225-AAAE-99BA74E19CF2_-_21CS048_omgupta_axqrud.jpg",
   },
   {
-    id: "7",
+    id: "4",
     name: "Rishita Jayant",
     batch: "2025",
     bio: "Aspiring Full-stack Web Developer ^_^, finding my way through songs is my speciality and Designing's one of my forte...",
@@ -79,7 +50,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771444179/rishitamaam_f9d3oc.jpg",
   },
   {
-    id: "8",
+    id: "5",
     name: "Vrishhti Goel",
     batch: "2025",
     bio: "A passionate Designer and DSA enthusiast, striving hard to sharpen my tech skills.",
@@ -89,7 +60,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771444795/vrisshtimaam_b21ajb.jpg",
   },
   {
-    id: "9",
+    id: "6",
     name: "Anubhav Pal",
     batch: "2025",
     bio: "Developer with a strong idea of UI/UX design, combining technical expertise with a keen eye for aesthetics.",
@@ -97,6 +68,36 @@ export const alumniMembers: Alumni[] = [
     github: "https://github.com/Anubhav-Pal",
     image:
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771444177/anubhavsir_csn2kt.webp",
+  },
+  {
+    id: "7",
+    name: "Piyush Gupta",
+    batch: "2025",
+    bio: "Data Structure and Algorithm and a Web Enthusiast. Exploring various technologies in web development.",
+    linkedin: "https://www.linkedin.com/in/piyush-gupta-536097219",
+    github: "https://github.com/piug-07",
+    image:
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771443897/piyushsir_dts5gd.jpg",
+  },
+  {
+    id: "8",
+    name: "Rudrakshita",
+    batch: "2025",
+    bio: "Spearheading user-friendly designs and maintaining visual consistency. My role revolves around crafting engaging experiences for various projects, all within the GDSC ecosystem",
+    linkedin: "https://www.linkedin.com/in/rudrakshita-prasad-4a7041258/",
+    github: "https://www.behance.net/rudyyy2102",
+    image:
+      "https://res.cloudinary.com/dhkxbgwmt/image/upload/v1696706287/Profile%20Photo%20%28File%20responses%29/urnabf4ceig3ldbw5rkm.jpg",
+  },
+  {
+    id: "9",
+    name: "Yash Tiwari",
+    batch: "2025",
+    bio: "Developing to Develop !",
+    linkedin: "https://www.linkedin.com/in/yash-tiwari-966648158/",
+    github: "https://github.com/tiwari74",
+    image:
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771443891/yashsir_l4wiqi.jpg",
   },
   {
     id: "10",

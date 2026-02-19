@@ -18,7 +18,6 @@ const WhatWeDo = () => {
       <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-Primary font-ProductSans tracking-wide">
         What we Do!
       </h2>
-
       <motion.div
         className="grid grid-cols-1 lg:grid-cols-6 gap-6"
         variants={subtleCardContainer}
@@ -31,8 +30,17 @@ const WhatWeDo = () => {
           className="lg:col-span-2 w-full md:min-h-80 pb-5 md:max-w-152.5 bg-stone-50 rounded-2xl relative flex flex-col justify-between items-start overflow-hidden"
           variants={subtleCardReveal}
           transition={subtleCardTransition}
+          whileHover={
+            reduceMotion
+              ? undefined
+              : { scale: 1.04, boxShadow: "0 8px 32px 0 rgba(0,0,0,0.12)" }
+          }
         >
-          <div className="self-stretch relative aspect-3/1 lg:aspect-2/1">
+          <motion.div
+            className="self-stretch relative aspect-3/1 lg:aspect-2/1"
+            whileHover={reduceMotion ? undefined : { rotate: 20, scale: 1.08 }}
+            transition={{ type: "spring", stiffness: 200, damping: 15 }}
+          >
             <Image
               src="/icons/orangeGradient.svg"
               alt="Orange Gradient"
@@ -40,7 +48,7 @@ const WhatWeDo = () => {
               sizes="(min-width: 1024px) 33vw, 100vw"
               className="object-contain object-top-right"
             />
-          </div>
+          </motion.div>
           <div className="self-stretch px-6 flex flex-col justify-start items-start overflow-hidden gap-3">
             <h2 className="self-stretch justify-start text-Primary text-3xl font-bold font-ProductSans">
               Design
@@ -51,12 +59,16 @@ const WhatWeDo = () => {
             </div>
           </div>
         </motion.div>
-
         {/*Web Dev */}
         <motion.div
           className="lg:col-span-2 w-full md:min-h-80 pt-5 md:max-w-152.5 bg-stone-50 rounded-2xl relative flex flex-col justify-between items-start overflow-hidden"
           variants={subtleCardReveal}
           transition={subtleCardTransition}
+          whileHover={
+            reduceMotion
+              ? undefined
+              : { scale: 1.04, boxShadow: "0 8px 32px 0 rgba(0,0,0,0.12)" }
+          }
         >
           <div className="self-stretch px-6 flex flex-col justify-start items-start gap-3 overflow-hidden">
             <h2 className="self-stretch justify-start text-Primary text-3xl font-bold font-ProductSans">
@@ -67,7 +79,11 @@ const WhatWeDo = () => {
               websites using modern web technologies.
             </div>
           </div>
-          <div className="self-stretch relative aspect-3/1 lg:aspect-2/1">
+          <motion.div
+            className="self-stretch relative aspect-3/1 lg:aspect-2/1"
+            whileHover={reduceMotion ? undefined : { scale: 1.08, rotate: -15 }}
+            transition={{ type: "spring", stiffness: 200, damping: 15 }}
+          >
             <Image
               src="/icons/blueGradient.svg"
               alt="Blue Circles"
@@ -75,16 +91,28 @@ const WhatWeDo = () => {
               sizes="(min-width: 1024px) 33vw, 100vw"
               className="object-contain object-bottom-right"
             />
-          </div>
+          </motion.div>
         </motion.div>
-
         {/* App Dev */}
         <motion.div
           className="lg:col-span-2 w-full md:min-h-80 pb-5 md:max-w-152.5 bg-stone-50 rounded-2xl relative flex flex-col justify-between items-start overflow-hidden"
           variants={subtleCardReveal}
           transition={subtleCardTransition}
+          whileHover={
+            reduceMotion
+              ? undefined
+              : { scale: 1.04, boxShadow: "0 8px 32px 0 rgba(0,0,0,0.12)" }
+          }
         >
-          <div className="self-stretch relative aspect-3/1 lg:aspect-2/1">
+          <motion.div
+            className="self-stretch relative aspect-3/1 lg:aspect-2/1"
+            whileHover={
+              reduceMotion
+                ? undefined
+                : { scale: 1.12, rotate: -18, x: 12, y: -8 }
+            }
+            transition={{ type: "spring", stiffness: 200, damping: 15 }}
+          >
             <Image
               src="/icons/greenGradient.svg"
               alt="Green Circles"
@@ -92,7 +120,7 @@ const WhatWeDo = () => {
               sizes="(min-width: 1024px) 33vw, 100vw"
               className="object-contain object-top-right"
             />
-          </div>
+          </motion.div>
           <div className="self-stretch gap-3 px-6 flex flex-col justify-start items-start overflow-hidden">
             <h2 className="self-stretch text-left text-Primary text-3xl font-bold font-ProductSans">
               App Development
@@ -103,14 +131,22 @@ const WhatWeDo = () => {
             </div>
           </div>
         </motion.div>
-
         {/*Programming */}
         <motion.div
           className="lg:col-span-3 w-full max-w-152.5 md:min-h-60 pb-5 bg-stone-50 rounded-2xl relative flex flex-col justify-start items-start overflow-hidden"
           variants={subtleCardReveal}
           transition={subtleCardTransition}
+          whileHover={
+            reduceMotion
+              ? undefined
+              : { scale: 1.04, boxShadow: "0 8px 32px 0 rgba(0,0,0,0.12)" }
+          }
         >
-          <div className="self-stretch relative aspect-3/1">
+          <motion.div
+            className="self-stretch relative aspect-3/1"
+            whileHover={reduceMotion ? undefined : { scaleX: 1.25 }}
+            transition={{ type: "spring", stiffness: 200, damping: 15 }}
+          >
             <Image
               src="/icons/redGradient.svg"
               alt="Red Gradient"
@@ -118,7 +154,7 @@ const WhatWeDo = () => {
               sizes="(min-width: 1024px) 33vw, 100vw"
               className="object-contain object-top-right"
             />
-          </div>
+          </motion.div>
           <div className="self-stretch px-6 flex flex-col justify-start items-start gap-3 overflow-hidden">
             <h2 className="self-stretch justify-start text-Primary text-3xl font-bold font-ProductSans">
               Programming
@@ -129,12 +165,16 @@ const WhatWeDo = () => {
             </div>
           </div>
         </motion.div>
-
         {/* Card 5: Machine Learning */}
         <motion.div
           className="lg:col-span-3 w-full max-w-152.5 md:min-h-60 pt-5 bg-stone-50 rounded-2xl relative flex flex-col justify-between items-start overflow-hidden"
           variants={subtleCardReveal}
           transition={subtleCardTransition}
+          whileHover={
+            reduceMotion
+              ? undefined
+              : { scale: 1.04, boxShadow: "0 8px 32px 0 rgba(0,0,0,0.12)" }
+          }
         >
           <div className="self-stretch px-6 flex flex-col justify-center items-start gap-3 overflow-hidden">
             <h2 className="self-stretch justify-start text-Primary text-3xl font-bold font-ProductSans">
@@ -145,7 +185,16 @@ const WhatWeDo = () => {
               data, models, and real-world applications.
             </div>
           </div>
-          <div className="self-stretch relative aspect-3/1">
+          <motion.div
+            className="self-stretch relative aspect-3/1"
+            whileHover={reduceMotion ? undefined : { y: -18, scaleY: 1.12 }}
+            transition={{
+              type: "spring",
+              stiffness: 140,
+              damping: 7,
+              bounce: 0.45,
+            }}
+          >
             <Image
               src="/icons/purpleGradient.svg"
               alt="Purple Circles"
@@ -153,11 +202,10 @@ const WhatWeDo = () => {
               sizes="(min-width: 1024px) 33vw, 100vw"
               className="absolute object-contain object-bottom-right"
             />
-          </div>
+          </motion.div>
         </motion.div>
       </motion.div>
     </Reveal>
   );
 };
-
 export default WhatWeDo;
