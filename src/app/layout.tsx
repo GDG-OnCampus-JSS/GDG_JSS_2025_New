@@ -2,6 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/next"
 
 const customFont = localFont({
   src: [
@@ -64,6 +65,7 @@ export default function RootLayout({
     <html lang="en" className={customFont.variable}>
       <body className={`antialiased`}>
         {children}
+        <Analytics />
         <Script
           src="https://www.instagram.com/embed.js"
           strategy="afterInteractive"

@@ -18,7 +18,7 @@ export const teamMembers: TeamMember[] = [
     linkedin: "https://www.linkedin.com/in/ramitvishwakarma/",
     github: "https://github.com/RamitVishwakarma",
     image:
-      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771443046/ramitsir_mtd68v.jpg",
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771527405/RamitSir_hwswg8.jpg",
   },
   {
     id: "2",
