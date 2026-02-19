@@ -3,16 +3,16 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   images: {
-    domains: [
-      "res.cloudinary.com",
-      "avatars.githubusercontent.com",
-      "avatars0.githubusercontent.com",
-      "avatars1.githubusercontent.com",
-      "avatars2.githubusercontent.com",
-      "avatars3.githubusercontent.com",
-      "user-images.githubusercontent.com",
-      "media.licdn.com",
-      "i.ibb.co",
+    remotePatterns: [
+      { protocol: "https", hostname: "res.cloudinary.com" },
+      { protocol: "https", hostname: "avatars.githubusercontent.com" },
+      { protocol: "https", hostname: "avatars0.githubusercontent.com" },
+      { protocol: "https", hostname: "avatars1.githubusercontent.com" },
+      { protocol: "https", hostname: "avatars2.githubusercontent.com" },
+      { protocol: "https", hostname: "avatars3.githubusercontent.com" },
+      { protocol: "https", hostname: "user-images.githubusercontent.com" },
+      { protocol: "https", hostname: "media.licdn.com" },
+      { protocol: "https", hostname: "i.ibb.co" },
     ],
   },
 };

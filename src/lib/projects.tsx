@@ -7,7 +7,7 @@ export interface Project {
   image: string;
   projectLink: string;
   techStack?: { [key: string]: string }[];
-  bgColor?: string;
+  bgColor: string;
 }
 
 export const projects: Project[] = [

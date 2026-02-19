@@ -12,7 +12,6 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 import { useEffect } from "react";
-import Link from "next/link";
 import LogoMain from "@/components/common/LogoMain";
 import Projectpagelogo from "@/components/common/Projectpagelogo";
 
@@ -323,7 +322,11 @@ const Hero = ({ title, desc, logo }: Props) => {
               {desc}
             </p>
           </div>
-          <Link href="https://chat.whatsapp.com/GlGpGEgOrlm2QwbkjnDE6V">
+          <a
+            href="https://chat.whatsapp.com/GlGpGEgOrlm2QwbkjnDE6V"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <motion.button
               type="button"
               className="rounded-[44px] bg-[#1A73E8] py-2 px-6 text-white"
@@ -333,7 +336,7 @@ const Hero = ({ title, desc, logo }: Props) => {
             >
               Join Community
             </motion.button>
-          </Link>
+          </a>
         </div>
         <div className="w-full max-w-119">
           {logo === "/icons/logo.svg" ? (
