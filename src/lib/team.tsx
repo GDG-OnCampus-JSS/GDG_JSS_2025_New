@@ -226,7 +226,7 @@ export const teamMembers: TeamMember[] = [
     id: "22",
     name: "Avinash Kumar Ankur",
     role: "Web Developer",
-    bio: "link dena kuch short, punchy sa. ya fir batata hu baad me 😗",
+    bio: "Here for the vibes, the wins, and the occasional parties.",
     image:
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435503/91CC017D-EAF0-4640-98B3-6C87207A6229_-_Avinash_ii9vtq.jpg",
     linkedin: "https://www.linkedin.com/in/avinashankur",
@@ -385,6 +385,16 @@ export const teamMembers: TeamMember[] = [
   },
   {
     id: "38",
+    name: "Shivi Sharma",
+    role: "Designer",
+    bio: "Turning caffeine and chaos into clean, calculated designs!",
+    image:
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771524280/Shivi_mestj2.jpg",
+    otherLink:
+      "https://shivisharma.framer.website/",
+  },
+  {
+    id: "39",
     name: "Aman Agrahari",
     role: "Web Developer",
     bio: "MERN Stack Developer & DSA Learner",
