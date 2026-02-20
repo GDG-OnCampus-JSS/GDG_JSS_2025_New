@@ -150,7 +150,7 @@ export default function Header() {
 
   return (
     <header className="w-full px-[8vw] py-4 inline-flex justify-between items-center">
-      <div className="flex justify-start items-center gap-1">
+      <Link href="/" className="flex justify-start items-center gap-1">
         <Image
           src="/icons/gdsclogo.svg"
           alt="gdsc logo"
@@ -160,7 +160,7 @@ export default function Header() {
         <span className="justify-start text-neutral-700 text-base font-normal cursor-pointer">
           GDG JSSATEN
         </span>
-      </div>
+      </Link>
       <Button
         type="button"
         title="Menu"

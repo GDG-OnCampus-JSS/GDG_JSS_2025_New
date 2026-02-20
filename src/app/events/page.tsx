@@ -23,7 +23,7 @@ function EventsPage() {
           desc="We organize impactful events across a wide range of technical topics—featuring hands-on workshops, learning sessions, and collaborative activities. We take pride in fostering an inclusive environment for everyone interested in tech."
           logo="/icons/logo.svg"
         />
-        <section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-9 items-stretch justify-items-center w-full">
+        <section className="flex flex-wrap justify-center gap-10 items-stretch w-full">
           {instagramPosts.map((post) => (
             <motion.div
               key={post.id}

@@ -30,13 +30,23 @@ export default function CarouselEvents() {
     api.on("select", onSelect);
     onSelect();
 
+    const interval = setInterval(() => {
+      if (api) {
+        api.scrollNext();
+      }
+    }, 2000);
+
     return () => {
       api.off("select", onSelect);
+      clearInterval(interval);
     };
   }, [api]);
 
   return (
-    <section className="relative w-full py-8 sm:py-16">
+    <section
+      className="relative w-[95vw] md:w-[98vw] overflow-x-clip max-w-none left-1/2 right-1/2 -translate-x-1/2 py-8 sm:py-16"
+      style={{ position: "relative" }}
+    >
       <Carousel
         setApi={setApi}
         opts={{
@@ -46,25 +56,21 @@ export default function CarouselEvents() {
           slidesToScroll: 1,
           skipSnaps: false,
         }}
-        className="mx-auto max-w-7xl"
+        className="w-screen max-w-none mx-auto"
       >
-        <div className="overflow-hidden">
-          <CarouselContent className="-ml-4 sm:-ml-6">
+        <div className="overflow-visible">
+          <CarouselContent className="-ml-4 sm:-ml-6 w-screen max-w-none px-1">
             {events.map((event, index) => {
               const isActive = index === selected;
 
               return (
                 <CarouselItem
                   key={index}
-                  className=" py-4
-                    pl-4 sm:pl-6
-                    sm:basis-105
-                    lg:basis-132
-                  "
+                  className="py-4 pl-4 sm:pl-2 w-full md:max-w-140 max-h-175"
                 >
                   <motion.div
                     className={cn(
-                      "mx-auto max-w-130 p-4 rounded-2xl border border-[#F1F1F1] bg-[#F9F9F9] transition-all duration-300",
+                      "mx-auto w-full max-w-139 max-h-165 p-4 rounded-2xl border border-[#F1F1F1] bg-[#F9F9F9] transition-all duration-300 flex flex-col justify-between",
                       isActive ? "scale-100" : "scale-95"
                     )}
                     animate={{ scale: isActive ? 1 : 0.95 }}
@@ -75,27 +81,18 @@ export default function CarouselEvents() {
                       boxShadow: cardTransition,
                     }}
                   >
-                    <div
-                      className="
-                        relative mx-auto
-                        w-full
-                        max-w-lg
-                        aspect-square
-                        rounded-xl
-                        bg-[#F9F6FF]
-                        overflow-hidden
-                      "
-                    >
+                    <div className="relative w-full max-w-138 h-80 md:h-140 mx-auto rounded-xl bg-[#F9F6FF] overflow-hidden">
                       <Image
                         src={event.image}
                         alt={event.title}
                         fill
-                        className="object-cover"
+                        className="object-cover w-full h-full"
                         priority={isActive}
+                        sizes="(max-width: 558px) 80vw, 558px"
                       />
                     </div>
 
-                    <div className="px-4 py-3">
+                    <div className="px-4 py-3 w-full">
                       <h4 className="font-ProductSans text-xl sm:text-2xl font-bold text-[#202124]">
                         {event.title}
                       </h4>

@@ -4,7 +4,7 @@ export const socialLinks = [
     description: "We are just a message away!",
     icon: "/icons/whatsapp.svg",
     iconColor: "text-green-500",
-    href: "https://chat.whatsapp.com/JwOaPp7hezG8g2EUV1NHVc?mode=gi_t",
+    href: "https://chat.whatsapp.com/GlGpGEgOrlm2QwbkjnDE6V",
   },
   {
     title: "Instagram",

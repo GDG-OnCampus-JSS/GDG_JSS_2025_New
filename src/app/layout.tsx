@@ -2,7 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Script from "next/script";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/next";
 
 const customFont = localFont({
   src: [
@@ -24,8 +24,8 @@ const customFont = localFont({
 export const metadata: Metadata = {
   title: "GDG JSSATEN",
   description:
-    "Our community unites web developers, app creators, ml enthusiasts, designers, and tech enthusiasts of all backgrounds. Through hands-on workshops, hackathons, and collaborative projects, we share knowledge and build real solutions.",
-  metadataBase: new URL("https://gdg.jssaten.in"),
+    "Our community unites web developers, app creators, ML enthusiasts, designers, and tech enthusiasts of all backgrounds. Through hands-on workshops, hackathons, and collaborative projects, we share knowledge and build real solutions.",
+  metadataBase: new URL("https://gdgjss.in"),
   icons: {
     icon: "/icons/gdsclogo.svg",
     apple: "/icons/gdsclogo.svg",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   //   title: "GDG JSSATEN",
   //   description:
   //     "Our community unites web developers, app creators, ml enthusiasts, designers, and tech enthusiasts of all backgrounds. Through hands-on workshops, hackathons, and collaborative projects, we share knowledge and build real solutions.",
-  //   url: "https://gdg.jssaten.in",
+  //   url: "https://gdgjss.in",
   //   siteName: "GDG JSSATEN",
   //   images: [
   //     {
