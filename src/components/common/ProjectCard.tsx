@@ -123,11 +123,7 @@ export default function ProjectCard({ project }: Props) {
                   delay: 0.1 + id * 0.08,
                 }}
               >
-                <Icon
-                  icon={Object.values(tech)[0]}
-                  width={24}
-                  height={24}
-                />
+                <Icon icon={Object.values(tech)[0]} width={24} height={24} />
                 <p className=" text-Primary text-base font-bold font-ProductSans">
                   {Object.keys(tech)[0]}
                 </p>

@@ -62,45 +62,7 @@ const Hero = ({ title, desc, logo }: Props) => {
           gsap.set([projectCenter, ...projectNodes, ...projectLines], {
             opacity: 1,
           });
-          return;
         }
-
-        const tl = gsap.timeline({
-          defaults: { ease: "power3.out" },
-          scrollTrigger: {
-            trigger: "#hero",
-            start: "top 70%",
-            toggleActions: "play none none reverse",
-          },
-        });
-
-        tl.from(projectCenter, {
-          opacity: 0,
-          scale: 0.96,
-          duration: 0.55,
-          ease: "power2.out",
-        })
-          .from(
-            projectLines,
-            {
-              opacity: 0,
-              scaleX: 0,
-              duration: 0.5,
-              stagger: 0.08,
-              transformOrigin: "50% 50%",
-            },
-            "-=0.2"
-          )
-          .from(
-            projectNodes,
-            {
-              opacity: 0,
-              scale: 0.9,
-              duration: 0.35,
-              stagger: 0.06,
-            },
-            "-=0.15"
-          );
 
         const createColumnFlowTweens = (column: string[]) => {
           const elements = column
@@ -191,16 +153,7 @@ const Hero = ({ title, desc, logo }: Props) => {
           projectListeners.push({ el, enter, leave });
         });
 
-        const pulseTween = gsap.to(projectCenter, {
-          scale: 1.015,
-          duration: 2.4,
-          repeat: -1,
-          yoyo: true,
-          ease: "sine.inOut",
-        });
-
         return () => {
-          pulseTween.kill();
           flowTweens.forEach((tween) => tween.kill());
           projectListeners.forEach(({ el, enter, leave }) => {
             el.removeEventListener("mouseenter", enter);

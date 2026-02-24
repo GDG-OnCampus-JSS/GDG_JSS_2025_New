@@ -215,7 +215,7 @@ export const teamMembers: TeamMember[] = [
     id: "21",
     name: "Ayushi shahi",
     role: "Programmer",
-    bio: "I’m a Computer Science student passionate about backend development, DSA , and ML, focused on building practical, scalable solutions and continuously learning.",
+    bio: "Learning and building",
     image:
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435462/My_3_-_Ayushi_shahi_qfktsf.jpg",
     linkedin: "https://www.linkedin.com/in/ayushi-shahi-2907b0297/",
@@ -249,7 +249,7 @@ export const teamMembers: TeamMember[] = [
     bio: "Building the future, one deployment at a time.",
     image:
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435493/IMG-20241230-WA0267_4_-_Divya_Sharma_vkv9vf.jpg",
-    linkedin: "https://url-shortener.me/CZTG",
+    linkedin: "https://www.linkedin.com/in/divyanshi-sharma-1977a3302/",
     github: "https://github.com/Missdivyaa",
   },
   {
@@ -390,8 +390,7 @@ export const teamMembers: TeamMember[] = [
     bio: "Turning caffeine and chaos into clean, calculated designs!",
     image:
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771524280/Shivi_mestj2.jpg",
-    otherLink:
-      "https://shivisharma.framer.website/",
+    otherLink: "https://shivisharma.framer.website/",
   },
   {
     id: "39",
