@@ -11,6 +11,145 @@ export interface Alumni {
 export const alumniMembers: Alumni[] = [
   {
     id: "1",
+    name: "Ramit Vishwakarma",
+    batch: "2026",
+    bio: "Java || Competitive Programmer || Full Stack Web Developer.",
+    linkedin: "https://www.linkedin.com/in/vishwakarmaramit/",
+    github: "https://github.com/RamitVishwakarma",
+    image:
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771527405/RamitSir_hwswg8.jpg",
+  },
+  {
+    id: "2",
+    name: "Ayush Agrawal",
+    batch: "2026",
+    bio: "Playing with Kotlin 🏌🏻‍♂️",
+    image:
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435486/IMG_20251101_185030765_-_Ayush_Ag_vzpjqn.jpg",
+    linkedin: "https://www.linkedin.com/in/its-ayushh-here",
+    github: "https://github.com/Agrawal-Ayush-009",
+  },
+  {
+    id: "3",
+    name: "Kanak Goel",
+    batch: "2026",
+    bio: "Living in Logcat & loving it",
+    image:
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435498/IMG_20231120_193800_2_-_Kanak_Goel_twulni.jpg",
+    linkedin: "https://www.linkedin.com/in/kanakgoel03",
+    github: "https://github.com/phoenix-kanak",
+  },
+  {
+    id: "4",
+    name: "Aayush Jain",
+    batch: "2026",
+    bio: "AI Engineer (Talk to me about ML Research or Product!)",
+    image:
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435492/Screenshot_20260216-225241_-_Aayush_Jain_z5xvct.png",
+    linkedin: "https://www.linkedin.com/in/aayush-jain-builds",
+    github: "https://github.com/Stoic-Angel",
+  },
+  {
+    id: "5",
+    name: "Harsh Sharma",
+    batch: "2026",
+    bio: "Enthusiast in creating different things through Technology and Explore different paths of Tech",
+    linkedin: "https://www.linkedin.com/in/harshsharma0801",
+    github: "https://github.com/HarshSharma0801",
+    image:
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771441875/harshsir_zpguss.jpg",
+  },
+  {
+    id: "6",
+    name: "Sparsh Rathore",
+    batch: "2026",
+    bio: "Obsessed with Craft • Product Designer",
+    image:
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435516/Screenshot_20260216-203212_-_Abhinav_Gupta_k5vh5v.png",
+    linkedin: "https://www.linkedin.com/in/sparsh-rathore",
+  },
+  {
+    id: "7",
+    name: "Aryan Kushwaha",
+    batch: "2026",
+    bio: "I love deterministic machines. Founding Engineer at Superdash in BLR",
+    image:
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435464/PXL_20260117_161556081_2_2_-_Aryan_Kushwaha_fqwynd.jpg",
+    linkedin: "https://www.linkedin.com/in/funinkina/",
+    github: "https://github.com/funinkina",
+  },
+  {
+    id: "8",
+    name: "Swapnil Singh",
+    batch: "2026",
+    bio: "Just a human trying to make sense of a very strange and fascinating world.",
+    image:
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435496/1739287156209_1_-_Swapnil_Singh_tmhb6h.jpg",
+    linkedin: "https://linkedin.com/in/hereisSwapnil",
+    github: "https://github.com/hereisswapnil",
+  },
+  {
+    id: "9",
+    name: "Vedant Goyal",
+    batch: "2026",
+    bio: "I am passionate about problem solving and innovation and also enjoy building meaningful and impactful solutions.",
+    image:
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435501/ProfilePic_-_Vedant_Goyal_lixecn.jpg",
+    linkedin: "https://www.linkedin.com/in/vedant-goyal-985a74212/",
+    github: "https://github.com/thevedantgoyal",
+  },
+  {
+    id: "10",
+    name: "Shreya Sharma",
+    batch: "2026",
+    bio: "Machine learning enthusiast mastering Data Structures and Algorithms, and thriving on the adrenaline of regular hackathons",
+    linkedin: "https://www.linkedin.com/in/shreya-sharma-75560224a",
+    github: "https://github.com/Shreya200326",
+    image:
+      "https://res.cloudinary.com/dgu3kt9f0/image/upload/v1726193963/Gdsc%20Profile/leiixuaxqspmi5crioxi.jpg",
+  },
+  {
+    id: "11",
+    name: "Rishika Saxena",
+    batch: "2026",
+    bio: "Machine learning enthusiast mastering Data Structures and Algorithms, and thriving on the adrenaline of regular hackathons",
+    linkedin: "https://www.linkedin.com/in/rishikasaxena24",
+    github: "https://github.com/rishika24-tech",
+    image:
+      "https://res.cloudinary.com/dgu3kt9f0/image/upload/v1726193957/Gdsc%20Profile/rmry4b3pq96yvfpvaucs.jpg",
+  },
+  {
+    id: "12",
+    name: "Yashvardhan Singh",
+    batch: "2026",
+    bio: "Hi, I am Yashvardhan Singh. My passion lies in cross-platform development. I am currently exploring the world of android.",
+    linkedin: "https://www.linkedin.com/in/vardhan-ysh",
+    github: "https://github.com/Vardhan-ysh",
+    image:
+      "https://res.cloudinary.com/dgu3kt9f0/image/upload/v1726193956/Gdsc%20Profile/wezisex7k5ru2nimwkgf.jpg",
+  },
+  {
+    id: "13",
+    name: "Shailesh Yadav",
+    batch: "2026",
+    bio: "ArTech Enthusiast",
+    linkedin: "https://www.linkedin.com/in/shailesh-yadav-730363154",
+    github: "https://github.com/shaileshyadavg",
+    image:
+      "https://res.cloudinary.com/dgu3kt9f0/image/upload/v1726193960/Gdsc%20Profile/jhlbi6du2hsi03tvelse.jpg",
+  },
+  {
+    id: "14",
+    name: "Sukhmeet Singh Lamba",
+    batch: "2026",
+    bio: "Editing, Motion Graphics, Abstractions are the things I may end up in love with.",
+    linkedin: "https://www.linkedin.com/in/sukhh",
+    github: "https://github.com/sukh285",
+    image:
+      "https://res.cloudinary.com/dgu3kt9f0/image/upload/v1726193957/Gdsc%20Profile/kvdzpvizevroirjkz247.jpg",
+  },
+  {
+    id: "15",
     name: "Shagun Chahar",
     batch: "2025",
     bio: "Building smarter applications for smarter users.",
@@ -20,7 +159,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771443895/shagunsir_deuxzc.jpg",
   },
   {
-    id: "2",
+    id: "16",
     name: "Ashish Kushwaha",
     batch: "2025",
     bio: "ML Lead | Backend Dev | Competitive Programmer",
@@ -30,7 +169,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771443891/ashishsir_cavnkw.jpg",
   },
   {
-    id: "3",
+    id: "17",
     name: "Om Gupta",
     batch: "2025",
     bio: "Competitive Programmer | DSA | WEB DEV | Open Source.",
@@ -40,7 +179,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/diupnvqvv/image/upload/v1668181921/00C86C0C-D1DC-4225-AAAE-99BA74E19CF2_-_21CS048_omgupta_axqrud.jpg",
   },
   {
-    id: "4",
+    id: "18",
     name: "Rishita Jayant",
     batch: "2025",
     bio: "Aspiring Full-stack Web Developer ^_^, finding my way through songs is my speciality and Designing's one of my forte...",
@@ -50,7 +189,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771444179/rishitamaam_f9d3oc.jpg",
   },
   {
-    id: "5",
+    id: "19",
     name: "Vrishhti Goel",
     batch: "2025",
     bio: "A passionate Designer and DSA enthusiast, striving hard to sharpen my tech skills.",
@@ -60,7 +199,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771444795/vrisshtimaam_b21ajb.jpg",
   },
   {
-    id: "6",
+    id: "20",
     name: "Anubhav Pal",
     batch: "2025",
     bio: "Developer with a strong idea of UI/UX design, combining technical expertise with a keen eye for aesthetics.",
@@ -70,7 +209,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771444177/anubhavsir_csn2kt.webp",
   },
   {
-    id: "7",
+    id: "21",
     name: "Piyush Gupta",
     batch: "2025",
     bio: "Data Structure and Algorithm and a Web Enthusiast. Exploring various technologies in web development.",
@@ -80,7 +219,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771443897/piyushsir_dts5gd.jpg",
   },
   {
-    id: "8",
+    id: "22",
     name: "Rudrakshita",
     batch: "2025",
     bio: "Spearheading user-friendly designs and maintaining visual consistency. My role revolves around crafting engaging experiences for various projects, all within the GDSC ecosystem",
@@ -90,7 +229,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771524145/Rudrakshita_tqhuyd.jpg",
   },
   {
-    id: "9",
+    id: "23",
     name: "Yash Tiwari",
     batch: "2025",
     bio: "Developing to Develop !",
@@ -100,7 +239,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771443891/yashsir_l4wiqi.jpg",
   },
   {
-    id: "10",
+    id: "24",
     name: "Devanshi Bahuguna",
     batch: "2025",
     bio: "ML Enthusiast | Data Science | Web Developer",
@@ -110,7 +249,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/diupnvqvv/image/upload/v1668181920/1667999208439_-_devanshi_bahuguna_blf3r0.jpg",
   },
   {
-    id: "11",
+    id: "25",
     name: "Abhishek Sharma",
     batch: "2025",
     bio: "Competitive programming | Development",
@@ -120,7 +259,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771445445/abhisheksir_wrkwss.jpg",
   },
   {
-    id: "12",
+    id: "26",
     name: "Vaani Pathariya",
     batch: "2025",
     bio: "Web Development | Machine Learning | Diving into the world of hackathons and turning creativity into innovation.",
@@ -130,7 +269,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771523340/Vaani_Pathariya_svr3dw.jpg",
   },
   {
-    id: "13",
+    id: "27",
     name: "Shiven Upadhyay",
     batch: "2025",
     bio: "Experienced full stack developer with a passion for problem-solving, and a love for DSA challenges.",
@@ -140,7 +279,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771444797/shivensir_arl0s6.jpg",
   },
   {
-    id: "14",
+    id: "28",
     name: "Yatendra Upadhyay",
     batch: "2025",
     bio: "Full Stack Web developer specialised in backend development. Passionate about solving real-life problems through Data structures and algorithms.",
@@ -150,7 +289,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771444790/yatendrasir_bqvljv.jpg",
   },
   {
-    id: "15",
+    id: "29",
     name: "Nitish",
     batch: "2025",
     bio: "Aspiring for infinity",
@@ -160,7 +299,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771444792/nitishsir_cluppm.jpg",
   },
   {
-    id: "16",
+    id: "30",
     name: "Smriti Singh",
     batch: "2025",
     bio: "I have passion for design. I excel at bridging technology and creativity, with a strong technical foundation in programming and a flair for crafting user-friendly interfaces.",
@@ -170,7 +309,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771444788/smiritmam_jryo9b.jpg",
   },
   {
-    id: "17",
+    id: "31",
     name: "Deepanshu Pandey",
     batch: "2025",
     bio: "I'm a programmer skilled in C++, Python, and C, with expertise in Android app development using Flutter and backend development using Django.",
@@ -180,7 +319,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771444785/deepanshusir_kzq0y8.jpg",
   },
   {
-    id: "18",
+    id: "32",
     name: "Yuvraj Singh Yadav",
     batch: "2025",
     bio: "Celebrated for expertise in crafting intuitive Android applications with mastery of Dart and Kotlin, excelling as a versatile Python developer.",
@@ -190,7 +329,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771445570/yuvrajsir_gdabgf.jpg",
   },
   {
-    id: "19",
+    id: "33",
     name: "Bhavya Mittal",
     batch: "2025",
     bio: "Experienced programmer with a passion for learning and growing and have a strong background in Data structures, as well as working on projects.",
@@ -200,7 +339,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771445446/bhavyasir_nd0mlm.jpg",
   },
   {
-    id: "20",
+    id: "34",
     name: "Shubhransh Bhaskar",
     batch: "2024",
     bio: "Product Designer at PhysicsWallah",
@@ -210,7 +349,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771443890/shubhranshsir_hbzgep.png",
   },
   {
-    id: "21",
+    id: "35",
     name: "Prakhar Sharma",
     batch: "2024",
     bio: "SDE @Equirus Wealth | SIH'22 winner",
@@ -220,7 +359,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/de4by5q8o/image/upload/v1628849450/prakhar_qvejyr.jpg",
   },
   {
-    id: "22",
+    id: "36",
     name: "Rucha Kasture",
     batch: "2024",
     bio: "Ex Frontend Developer @Allianz | SIH'22 winner",
@@ -230,7 +369,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/diupnvqvv/image/upload/v1668181870/xyz_-_Rucha_Kasture_uoybgo.jpg",
   },
   {
-    id: "23",
+    id: "37",
     name: "Satyam",
     batch: "2024",
     bio: "Product designer @Wint wealth",
@@ -240,7 +379,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771445450/satyamsir_obyrwx.jpg",
   },
   {
-    id: "24",
+    id: "38",
     name: "Prince Gupta",
     batch: "2024",
     bio: "Associate Software Engineer @Reddoorz",
@@ -251,7 +390,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "25",
+    id: "39",
     name: "Pankhuri Srivastava",
     batch: "2024",
     bio: "SDE @ION",
@@ -261,7 +400,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771445453/pankhurimaam_pjdsun.jpg",
   },
   {
-    id: "26",
+    id: "40",
     name: "Vijay Kumar Prajapati",
     batch: "2024",
     bio: "Associate Applied Scientist @Vidyam AI",
@@ -271,7 +410,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/de4by5q8o/image/upload/v1628849462/vijay_zafkdv.jpg",
   },
   {
-    id: "27",
+    id: "41",
     name: "Divik Agrawal",
     batch: "2024",
     bio: "SDE @Zeta",
@@ -281,7 +420,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/diupnvqvv/image/upload/v1668181919/image_-_Divik_Agrawal_r3sstx.jpg",
   },
   {
-    id: "28",
+    id: "42",
     name: "Ritika Garg",
     batch: "2024",
     bio: "Software Engineer Trainee at Pelocal Fintech Private Ltd",
@@ -291,7 +430,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/diupnvqvv/image/upload/v1668181875/myprofile_-_Ritika_Garg_bjfpdr.jpg",
   },
   {
-    id: "29",
+    id: "43",
     name: "Aabhash Gauda",
     batch: "2024",
     bio: "I love Developing and Exploring World of Web |Java.",
@@ -302,7 +441,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "30",
+    id: "44",
     name: "Udbhav Patel",
     batch: "2024",
     bio: "Ex-intern @Systaldyn",
@@ -312,7 +451,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771523340/Udbhav_Patel_kbomlf.jpg",
   },
   {
-    id: "31",
+    id: "45",
     name: "Harshit keshri",
     batch: "2024",
     bio: "Intern @Vasukam",
@@ -322,7 +461,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771523340/Harshit_Keshri_ab9sxc.jpg",
   },
   {
-    id: "32",
+    id: "46",
     name: "Kalash Saini",
     batch: "2024",
     bio: "Intern @BUILDIT",
@@ -333,7 +472,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "33",
+    id: "47",
     name: "Indira Vats",
     batch: "2023",
     bio: "Research Intern at Dalhousie University",
@@ -343,7 +482,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/de4by5q8o/image/upload/v1628868234/indira_kjfizd.jpg",
   },
   {
-    id: "34",
+    id: "48",
     name: "Naman Shankhydhar",
     batch: "2023",
     bio: "Software Engineer at BYJU'S",
@@ -354,7 +493,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "35",
+    id: "49",
     name: "Abhinav Thakur",
     batch: "2023",
     bio: "Software Developer at Pocket FM",
@@ -364,7 +503,7 @@ export const alumniMembers: Alumni[] = [
       "https://res.cloudinary.com/abhistrike/image/upload/v1612293861/20210203_005335_dlocx8.jpg",
   },
   {
-    id: "36",
+    id: "50",
     name: "Akshit Awasthi",
     batch: "2023",
     bio: "Software Engineer at Google",
@@ -375,7 +514,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "37",
+    id: "51",
     name: "Aman Dixit",
     batch: "2023",
     bio: "Software Engineer at BYJU'S",
@@ -386,7 +525,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "38",
+    id: "52",
     name: "Anjana Bajaj",
     batch: "2023",
     bio: "Software Engineer at Zomato",
@@ -396,7 +535,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "39",
+    id: "53",
     name: "Anuraj Jain",
     batch: "2023",
     bio: "Software Developer at Blinkit",
@@ -407,7 +546,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "40",
+    id: "54",
     name: "Ashish Kumar Gupta",
     batch: "2023",
     bio: "Product Designer at Physics Wallah",
@@ -418,7 +557,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "41",
+    id: "55",
     name: "Bhagyashree Rajdor",
     batch: "2023",
     bio: "Successive Digital · Apprenticeship",
@@ -429,7 +568,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "42",
+    id: "56",
     name: "Dhruv Baliyan",
     batch: "2023",
     bio: "I've good problem solving skills and understanding of DSA. Currently learning Android development.",
@@ -440,7 +579,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "43",
+    id: "57",
     name: "Karan Verma",
     batch: "2023",
     bio: "Software Developer at Blinkit",
@@ -451,7 +590,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "44",
+    id: "58",
     name: "Nakul Sharma",
     batch: "2023",
     bio: "Software Developer at Blinkit",
@@ -462,7 +601,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "45",
+    id: "59",
     name: "Swarina Jaiswal",
     batch: "2023",
     bio: "Software Engineer at UKG",
@@ -472,7 +611,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "46",
+    id: "60",
     name: "Yash Garg",
     batch: "2023",
     bio: "Software Developer at Tezoz",
@@ -482,7 +621,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "47",
+    id: "61",
     name: "Paurush Tiwari",
     batch: "2022",
     bio: "DSC Lead | SIH2020 Winner | LiFT Scholar | GSSoC'21 Mentor | Machine Learning Engineer | Open Source Enthusiast",
@@ -493,7 +632,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "48",
+    id: "62",
     name: "Dheeraj Kotwani",
     batch: "2022",
     bio: "Software Development Engineer 2 at Zomato",
@@ -503,7 +642,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "49",
+    id: "63",
     name: "Pragati Verma",
     batch: "2022",
     bio: "Software Engineer at Upraised",
@@ -514,7 +653,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "50",
+    id: "64",
     name: "Gaurav Kumar",
     batch: "2022",
     bio: "Product Designer",
@@ -525,7 +664,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "51",
+    id: "65",
     name: "Vatsal Kesarwani",
     batch: "2022",
     bio: "Software Development Engineer 1 at Blinkit",
@@ -535,17 +674,18 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "52",
+    id: "66",
     name: "Ayush Tiwari",
     batch: "2022",
     bio: "Software Engineer at BrowserStack",
     linkedin: "https://www.linkedin.com/in/ayush-tiwari-b376b5194/",
     github: "https://github.com/servermonk",
-    image: "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771523339/Ayush_Tiwari_cscg9x.jpg",
+    image:
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771523339/Ayush_Tiwari_cscg9x.jpg",
   },
 
   {
-    id: "53",
+    id: "67",
     name: "Gaurav Kumar",
     batch: "2022",
     bio: "Software Development Engineer 1 at Amazon",
@@ -555,7 +695,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "54",
+    id: "68",
     name: "Diya Jaiswal",
     batch: "2022",
     bio: "Software Development Engineer 1 Urban Company",
@@ -565,7 +705,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "55",
+    id: "69",
     name: "Swatantra Nigam",
     batch: "2022",
     bio: "DSA Enthusiastic, Competetive Programmer, Backend Developer",
@@ -575,7 +715,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "56",
+    id: "70",
     name: "Shubham Pathak",
     batch: "2021",
     bio: "SDE @ Zomato | Ex- Gradeup Intern",
@@ -586,7 +726,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "57",
+    id: "71",
     name: "Utkarsh Srivastava",
     batch: "2021",
     bio: "Master's CSE @IIT Kanpur | AIR 135 GATE CS'21",
@@ -597,7 +737,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "58",
+    id: "72",
     name: "Radhika Bajaj",
     batch: "2021",
     bio: "Software Engineer at Gradeup (Gradestack Learning Pvt Ltd)",
@@ -608,7 +748,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "59",
+    id: "73",
     name: "Pulkit Jatav",
     batch: "2021",
     bio: "Software Engineer at HashedIn by Deloitte",
@@ -619,7 +759,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "60",
+    id: "74",
     name: "Tarun Shekhar",
     batch: "2021",
     bio: "Software Engineer @ Global Logic",
@@ -629,7 +769,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "61",
+    id: "75",
     name: "Arpit",
     batch: "2021",
     bio: "Experienced Developer with a demonstrated history of working with developers. Skilled in OpenCV, Python Machine Learning, and Leadership.",
@@ -640,7 +780,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "62",
+    id: "76",
     name: "Apoorva Srivastava",
     batch: "2021",
     bio: "M.Tech in Information Technology, IIIT Allahabad",
@@ -651,7 +791,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "63",
+    id: "77",
     name: "Himanshu Agarwal",
     batch: "2020",
     bio: "Sr Software Engineer at Gradeup (Gradestack Learning Pvt Ltd)",
@@ -661,7 +801,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "64",
+    id: "78",
     name: "Mayank Chauhan",
     batch: "2020",
     bio: "Frontend at Syfe | React & React Native Developer",
@@ -671,7 +811,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "65",
+    id: "79",
     name: "Hargovind Arora",
     batch: "2020",
     bio: "Machine Learning Intern @ Hiver | Master's CSE @ IIIT Bangalore '22",
@@ -681,7 +821,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "66",
+    id: "80",
     name: "Animesh Seemendra",
     batch: "2020",
     bio: "Research Engineer at SHL | Ex DSC Lead 2019-2020",
@@ -691,7 +831,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "67",
+    id: "81",
     name: "Deshraj Yadav",
     batch: "2016",
     bio: "Tesla Autopilot - Machine Learning Engineer | Co-founded Caliper.ai",
@@ -701,7 +841,7 @@ export const alumniMembers: Alumni[] = [
   },
 
   {
-    id: "68",
+    id: "82",
     name: "Taranjeet Singh",
     batch: "2015",
     bio: "Product & Growth at Khatabook (YC S18) | Previously Engineering at Paytm, Gradeup, edX",
