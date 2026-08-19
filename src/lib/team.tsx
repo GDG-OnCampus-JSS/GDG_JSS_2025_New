@@ -12,147 +12,6 @@ export interface TeamMember {
 export const teamMembers: TeamMember[] = [
   {
     id: "1",
-    name: "Ramit Vishwakarma",
-    role: "GDG Lead",
-    bio: "Java || Competitive Programmer || Full Stack Web Developer.",
-    linkedin: "https://www.linkedin.com/in/vishwakarmaramit/",
-    github: "https://github.com/RamitVishwakarma",
-    image:
-      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771527405/RamitSir_hwswg8.jpg",
-  },
-  {
-    id: "2",
-    name: "Ayush Agrawal",
-    role: "CTC",
-    bio: "Playing with Kotlin 🏌🏻‍♂️",
-    image:
-      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435486/IMG_20251101_185030765_-_Ayush_Ag_vzpjqn.jpg",
-    linkedin: "https://www.linkedin.com/in/its-ayushh-here",
-    github: "https://github.com/Agrawal-Ayush-009",
-  },
-  {
-    id: "3",
-    name: "Kanak Goel",
-    role: "Android Developer",
-    bio: "Living in Logcat & loving it",
-    image:
-      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435498/IMG_20231120_193800_2_-_Kanak_Goel_twulni.jpg",
-    linkedin: "https://www.linkedin.com/in/kanakgoel03",
-    github: "https://github.com/phoenix-kanak",
-  },
-  {
-    id: "4",
-    name: "Aayush Jain",
-    role: "Machine Learning",
-    bio: "AI Engineer (Talk to me about ML Research or Product!)",
-    image:
-      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435492/Screenshot_20260216-225241_-_Aayush_Jain_z5xvct.png",
-    linkedin: "https://www.linkedin.com/in/aayush-jain-builds",
-    github: "https://github.com/Stoic-Angel",
-  },
-  {
-    id: "5",
-    name: "Harsh Sharma",
-    role: "Web Developer",
-    bio: "Enthusiast in creating different things through Technology and Explore different paths of Tech",
-    linkedin: "https://www.linkedin.com/in/harshsharma0801",
-    github: "https://github.com/HarshSharma0801",
-    image:
-      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771441875/harshsir_zpguss.jpg",
-  },
-  {
-    id: "6",
-    name: "Sparsh Rathore",
-    role: "Designer",
-    bio: "Obsessed with Craft • Product Designer",
-    image:
-      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435516/Screenshot_20260216-203212_-_Abhinav_Gupta_k5vh5v.png",
-    linkedin: "https://www.linkedin.com/in/sparsh-rathore",
-    otherLink: "https://sparsh.framer.website/",
-  },
-  {
-    id: "7",
-    name: "Aryan Kushwaha",
-    role: "Machine Learning",
-    bio: "I love deterministic machines. Founding Engineer at Superdash in BLR",
-    image:
-      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435464/PXL_20260117_161556081_2_2_-_Aryan_Kushwaha_fqwynd.jpg",
-    linkedin: "https://www.linkedin.com/in/funinkina/",
-    github: "https://github.com/funinkina",
-    otherLink: "https://funinkina.is-a.dev/",
-  },
-  {
-    id: "8",
-    name: "Swapnil Singh",
-    role: "Web Developer",
-    bio: "Just a human trying to make sense of a very strange and fascinating world.",
-    image:
-      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435496/1739287156209_1_-_Swapnil_Singh_tmhb6h.jpg",
-    linkedin: "https://linkedin.com/in/hereisSwapnil",
-    github: "https://github.com/hereisswapnil",
-  },
-  {
-    id: "9",
-    name: "Vedant Goyal",
-    role: "Programmer",
-    bio: "I am passionate about problem solving and innovation and also enjoy building meaningful and impactful solutions.",
-    image:
-      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435501/ProfilePic_-_Vedant_Goyal_lixecn.jpg",
-    linkedin: "https://www.linkedin.com/in/vedant-goyal-985a74212/",
-    github: "https://github.com/thevedantgoyal",
-  },
-  {
-    id: "10",
-    name: "Shreya Sharma",
-    role: "Machine Learning",
-    bio: "Machine learning enthusiast mastering Data Structures and Algorithms, and thriving on the adrenaline of regular hackathons",
-    linkedin: "https://www.linkedin.com/in/shreya-sharma-75560224a",
-    github: "https://github.com/Shreya200326",
-    image:
-      "https://res.cloudinary.com/dgu3kt9f0/image/upload/v1726193963/Gdsc%20Profile/leiixuaxqspmi5crioxi.jpg",
-  },
-  {
-    id: "11",
-    name: "Rishika Saxena",
-    role: "Machine Learning",
-    bio: "A cloud computing an Ml enthusiast exploring the technicalities of these domains and its certainly an ever growing euphoric experience for me.",
-    linkedin: "https://www.linkedin.com/in/rishikasaxena24",
-    github: "https://github.com/rishika24-tech",
-    image:
-      "https://res.cloudinary.com/dgu3kt9f0/image/upload/v1726193957/Gdsc%20Profile/rmry4b3pq96yvfpvaucs.jpg",
-  },
-  {
-    id: "12",
-    name: "Yashvardhan Singh",
-    role: "Android Developer",
-    bio: "Hi, I am Yashvardhan Singh. My passion lies in cross-platform development. I am currently exploring the world of android.",
-    linkedin: "https://www.linkedin.com/in/vardhan-ysh",
-    github: "https://github.com/Vardhan-ysh",
-    image:
-      "https://res.cloudinary.com/dgu3kt9f0/image/upload/v1726193956/Gdsc%20Profile/wezisex7k5ru2nimwkgf.jpg",
-  },
-  {
-    id: "13",
-    name: "Shailesh Yadav",
-    role: "Designer",
-    bio: "ArTech Enthusiast",
-    linkedin: "https://www.linkedin.com/in/shailesh-yadav-730363154",
-    github: "https://github.com/shaileshyadavg",
-    image:
-      "https://res.cloudinary.com/dgu3kt9f0/image/upload/v1726193960/Gdsc%20Profile/jhlbi6du2hsi03tvelse.jpg",
-  },
-  {
-    id: "14",
-    name: "Sukhmeet Singh Lamba",
-    role: "Designer",
-    bio: "Editing, Motion Graphics, Abstractions are the things I may end up in love with.",
-    linkedin: "https://www.linkedin.com/in/sukhh",
-    github: "https://github.com/sukh285",
-    image:
-      "https://res.cloudinary.com/dgu3kt9f0/image/upload/v1726193957/Gdsc%20Profile/kvdzpvizevroirjkz247.jpg",
-  },
-  {
-    id: "15",
     name: "Ankur Dwivedi",
     role: "Media Lead",
     bio: "Product Designer | I design thoughtful products!",
@@ -162,7 +21,7 @@ export const teamMembers: TeamMember[] = [
     otherLink: "https://helloankurr.framer.website/",
   },
   {
-    id: "16",
+    id: "2",
     name: "Adya Singh",
     role: "Android Lead",
     bio: "Android developer building real-world apps and exploring GenAI.",
@@ -172,7 +31,7 @@ export const teamMembers: TeamMember[] = [
     github: "https://github.com/Adya-04/",
   },
   {
-    id: "17",
+    id: "3",
     name: "Abhinav Gupta",
     role: "Web Lead",
     bio: "Not all who wander are lost, some are just looking for better documentation.",
@@ -181,9 +40,8 @@ export const teamMembers: TeamMember[] = [
     linkedin: "https://www.linkedin.com/in/abhinav-gupta-3580a72aa",
     github: "https://github.com/AbhinavG786",
   },
-
   {
-    id: "18",
+    id: "4",
     name: "Shobhit keshari",
     role: "Design Lead",
     bio: "Designer with 1.5 year intern and Freelance experience",
@@ -192,7 +50,7 @@ export const teamMembers: TeamMember[] = [
     linkedin: "https://www.linkedin.com/in/shobhit-keshari",
   },
   {
-    id: "19",
+    id: "5",
     name: "Abhay Shukla",
     role: "ML Lead",
     bio: "goated",
@@ -202,7 +60,7 @@ export const teamMembers: TeamMember[] = [
     github: "https://github.com/into-the-night",
   },
   {
-    id: "20",
+    id: "6",
     name: "Shishir Kumar",
     role: "Web Developer",
     bio: "Developer who loves problem solving, turning ideas into production-ready apps",
@@ -212,7 +70,7 @@ export const teamMembers: TeamMember[] = [
     github: "https://github.com/krshishir1",
   },
   {
-    id: "21",
+    id: "7",
     name: "Ayushi shahi",
     role: "Programmer",
     bio: "Learning and building",
@@ -221,9 +79,8 @@ export const teamMembers: TeamMember[] = [
     linkedin: "https://www.linkedin.com/in/ayushi-shahi-2907b0297/",
     github: "https://github.com/ayushi-shahi",
   },
-
   {
-    id: "22",
+    id: "8",
     name: "Avinash Kumar Ankur",
     role: "Web Developer",
     bio: "Here for the vibes, the wins, and the occasional parties.",
@@ -233,7 +90,7 @@ export const teamMembers: TeamMember[] = [
     github: "https://github.com/avinashankur",
   },
   {
-    id: "23",
+    id: "9",
     name: "Tanu Agarwal",
     role: "Web Developer",
     bio: "Focused on solving real problems with practical, scalable software and a mindset of continuous growth.",
@@ -243,7 +100,7 @@ export const teamMembers: TeamMember[] = [
     github: "https://www.github.com/tanu-agarwal0101",
   },
   {
-    id: "24",
+    id: "10",
     name: "Divyanshi Sharma",
     role: "Web Developer",
     bio: "Building the future, one deployment at a time.",
@@ -253,7 +110,7 @@ export const teamMembers: TeamMember[] = [
     github: "https://github.com/Missdivyaa",
   },
   {
-    id: "25",
+    id: "11",
     name: "Agrim Gupta",
     role: "Web Developer",
     bio: "Full-stack dev building real AI + web apps in production. I care about clean code, scale, performance.",
@@ -263,7 +120,7 @@ export const teamMembers: TeamMember[] = [
     github: "https://github.com/agrim08",
   },
   {
-    id: "26",
+    id: "12",
     name: "Vyom Sehgal",
     role: "Designer",
     bio: "I’ve been designing since my first year, and ever since, I’ve been developing a taste for clean, intentional, and thoughtful experiences.",
@@ -273,18 +130,7 @@ export const teamMembers: TeamMember[] = [
     otherLink: "https://vyomsehgal.framer.website",
   },
   {
-    id: "27",
-    name: "Kushagra Singh",
-    role: "Machine Learning",
-    bio: "2nd year, B.Tech I.T student. Currently learning AI/ML",
-    image:
-      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435443/IMG-20251225-WA0027_-_Kushagra_Singh_rhvtke.jpg",
-    linkedin:
-      "https://www.linkedin.com/in/kushagra-singh-46b803294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    github: "https://github.com/KushagraSinghog",
-  },
-  {
-    id: "28",
+    id: "13",
     name: "Vansh Khanna",
     role: "Web Developer",
     bio: "I’m a Data Science student at JSSATEN, part of the Web Development team at GDG and an Intern at AnthiasLabs, passionate about building scalable and impactful web applications.",
@@ -294,7 +140,7 @@ export const teamMembers: TeamMember[] = [
     github: "https://GitHub.com/0xfabb",
   },
   {
-    id: "29",
+    id: "14",
     name: "Vinay Agarwal",
     role: "Machine Learning",
     bio: "Aspiring ML Developer and CS student with about a year of experience in Python and a focus on building and experimenting with deep learning models. Highly motivated to learn, adapt, and grow.",
@@ -304,7 +150,44 @@ export const teamMembers: TeamMember[] = [
     github: "https://github.com/cybertesla/",
   },
   {
-    id: "30",
+    id: "15",
+    name: "Divyansh Goyal",
+    role: "Mobile Development",
+    bio: "Somewhere between Android, Reverse Engineering, Open Source, and breaking my own builds.",
+    image: "https://drive.google.com/open?id=1V04ieojjeew9CO2_moACg38iqV742McH",
+    linkedin: "https://www.linkedin.com/in/divyansh-goyal-002a07309",
+    github: "https://github.com/Phoenix1808",
+  },
+  {
+    id: "16",
+    name: "Sudhanshu Mani Tripathi",
+    role: "Web Development",
+    bio: "Unresponsive to responsiveness.",
+    image: "https://drive.google.com/open?id=1msSkODbgXnphFbyHcZnDW_x3i6nud8Cj",
+    linkedin: "https://www.linkedin.com/in/sud26/",
+    github: "https://github.com/HeythisisSud",
+  },
+  {
+    id: "17",
+    name: "Shivi Sharma",
+    role: "Design",
+    bio: "Curating beauty through thoughtful design",
+    image: "https://drive.google.com/open?id=1V-neo8jk7Uo1-w47sefUXeGys1aQMYbJ",
+    otherLink:
+      "https://app.enhancv.com/share/b22ec395/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic",
+  },
+  {
+    id: "18",
+    name: "Ayush Rastogi",
+    role: "Programming",
+    bio: "I code, build, break things, fix them, and somehow call that progress, always grinding for the next level",
+    image: "https://drive.google.com/open?id=15nx8jkHp4eebCLWyiwhencZHmGk0DT3Z",
+    linkedin:
+      "https://www.linkedin.com/in/ayush-rastogi0016?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    github: "https://github.com/ayu0016",
+  },
+  {
+    id: "19",
     name: "Harshit Bansal",
     role: "Programmer",
     bio: "Programmer at GDG | BTech Student\nLearning DSA in Java and strengthening OOP fundamentals while building frontend projects. Focused on clean code, problem-solving, and growing into full-stack development",
@@ -314,7 +197,7 @@ export const teamMembers: TeamMember[] = [
     github: "https://github.com/Harshit-Bansal421",
   },
   {
-    id: "31",
+    id: "20",
     name: "Shourya Vardhan Singh Chauhan",
     role: "Designer",
     bio: "Living that “Move it 2px Left” life.",
@@ -325,17 +208,7 @@ export const teamMembers: TeamMember[] = [
     github: "https://github.com/SVSC07",
   },
   {
-    id: "32",
-    name: "Divyansh Goyal",
-    role: "Android Developer",
-    bio: "Android Developer at GDG, passionate about building Android apps with Kotlin while exploring backend development and blockchain concepts. Always eager to learn and contribute.",
-    image:
-      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435455/pro_-_Divyansh_Goyal_kd5qmy.jpg",
-    linkedin: "https://www.linkedin.com/in/divyansh-goyal-002a07309",
-    github: "https://github.com/Phoenix1808",
-  },
-  {
-    id: "33",
+    id: "21",
     name: "Aayush Singh Faujdar",
     role: "Programmer",
     bio: "Passion and love for programming.",
@@ -345,17 +218,7 @@ export const teamMembers: TeamMember[] = [
     github: "https://github.com/AayushSinghFaujdar",
   },
   {
-    id: "34",
-    name: "Sudhanshu Mani Tripathi",
-    role: "Web Developer",
-    bio: "Hi, I’m Sudhanshu Mani Tripathi, a full-stack developer focused on backend development and real-world problem solving. I work with Node.js, Express, PostgreSQL, React, and Next.js.",
-    image:
-      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435472/IMG-20260123-WA0213_-_Sudhanshu_Mani_Tripathi_lwklnm.jpg",
-    linkedin: "https://www.linkedin.com/in/sud26",
-    github: "https://www.github.com/heythisissud",
-  },
-  {
-    id: "35",
+    id: "22",
     name: "Divyanshi Verma",
     role: "Designer",
     bio: "I speak fluent hex codes! Powered by immaculate font choices and the quiet rage of misaligned margins.",
@@ -364,36 +227,17 @@ export const teamMembers: TeamMember[] = [
     linkedin: "https://www.linkedin.com/in/divyanshiverma15",
   },
   {
-    id: "36",
-    name: "Ayush Rastogi",
-    role: "Programmer",
-    bio: "SIH FINALIST || FRONTEND || PROGRAMMER || C++",
-    image:
-      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435483/IMG_20260216_211314_-_Ayush_Rastogi_qf1nlj.jpg",
-    linkedin: "https://www.linkedin.com/in/ayush-rastogi0016/",
-    github: "https://github.com/ayu0016",
-  },
-  {
-    id: "37",
+    id: "23",
     name: "Yash Gupta",
     role: "Android Developer",
     bio: "Turning ideas into Apps!!",
     image:
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435488/Screenshot_20250910_100443_WhatsApp_-_Yash_Gupta_flkkv8.jpg",
     linkedin: "https://www.linkedin.com/in/yashgpt",
-    github: "https://github.com//yashgpt20",
+    github: "https://github.com/yashgpt20",
   },
   {
-    id: "38",
-    name: "Shivi Sharma",
-    role: "Designer",
-    bio: "Turning caffeine and chaos into clean, calculated designs!",
-    image:
-      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771524280/Shivi_mestj2.jpg",
-    otherLink: "https://shivisharma.framer.website/",
-  },
-  {
-    id: "39",
+    id: "24",
     name: "Aman Agrahari",
     role: "Web Developer",
     bio: "MERN Stack Developer & DSA Learner",
@@ -402,5 +246,116 @@ export const teamMembers: TeamMember[] = [
     linkedin:
       "https://www.linkedin.com/in/aman-agrahari-a36357308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     github: "https://github.com/aman8cse",
+  },
+  {
+    id: "25",
+    name: "Saksham Singh",
+    role: "Design",
+    bio: "okok",
+    image: "https://drive.google.com/open?id=1LxPhvDOQldelCIZDjNElwUaQb-g6xqoQ",
+    linkedin:
+      "https://www.linkedin.com/in/sakshamsingh731?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    github: "https://github.com/SakshamSingh007",
+  },
+  {
+    id: "26",
+    name: "Prateek Yadav",
+    role: "AI/ML",
+    bio: "AI/ML Developer",
+    image: "https://drive.google.com/open?id=1OVaG2BYdryb_Nx4mILDT03Xami-SqQLI",
+    linkedin: "https://www.linkedin.com/in/prateek9161",
+    github: "https://github.com/tdverse9",
+  },
+  {
+    id: "27",
+    name: "Vardan Singhal",
+    role: "Web Development",
+    bio: "Code. Deploy. Pray.",
+    image: "https://drive.google.com/open?id=1-sMjXP8TeJZK4j2sHPgZ4xIPLfooeNMG",
+    linkedin: "https://www.linkedin.com/in/vardansinghal/",
+    github: "https://github.com/vardaansinghal17",
+  },
+  {
+    id: "28",
+    name: "Sahitya Thakurela",
+    role: "Web Development",
+    bio: "If you can read this, thank a Software Developer ;-)",
+    image: "https://drive.google.com/open?id=1Rmegv_NftcHuB_zkeLsVGPaBFUpx47EK",
+    linkedin: "https://www.linkedin.com/in/sahitya-thakurela-9b6b4b368/",
+    github: "https://github.com/sahityathakurela",
+    otherLink: "sahityathakurela.in",
+  },
+  {
+    id: "29",
+    name: "GARVIT SINGH NEGI",
+    role: "AI/ML",
+    bio: "​Exploring Machine Learning and AI. In my free time, you'll usually find me playing a game of chess or doomscrolling reels.",
+    image: "https://drive.google.com/open?id=1zhBdRDT7zheiAxDNN6Cx4-KIbCvLAdYP",
+    linkedin:
+      "https://www.linkedin.com/in/garvit-singh-negi-71817338b?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    github: "https://github.com/garv1t-git",
+  },
+  {
+    id: "30",
+    name: "Sambhav Gupta",
+    role: "Web Development",
+    bio: "Computer Science student & Full-Stack developer passionate about building web applications, learning Backend development, and exploring AI. Always learning, building, and turning ideas into projects.",
+    image: "https://drive.google.com/open?id=1EzhM6Kqq5YTePB4GqPOX9Lr2eXi0Zk9D",
+    linkedin: "https://www.linkedin.com/in/sambhav-gupta-494347369/",
+    github: "https://github.com/Sambhav-Gupta12",
+  },
+  {
+    id: "31",
+    name: "Prakriti Swarup Sinha",
+    role: "Mobile Development",
+    bio: "B.Tech student and tech enthusiast. Passionate about learning, building projects, and growing through collaboration.",
+    image: "https://drive.google.com/open?id=13I2OZeTGKSecBjVIQ_j0KdcRj2QdFnlI",
+    linkedin:
+      "https://www.linkedin.com/in/prakriti-swarup-2869123b6?trk=contact-info",
+    github: "https://github.com/prakritidps2012-source",
+  },
+  {
+    id: "32",
+    name: "Aarushi Sachdeva",
+    role: "AI/ML",
+    bio: "building cool things",
+    image: "https://drive.google.com/open?id=1h2LxXWL4EjNQowh1m-HULZ1hnwnxOppF",
+    linkedin: "https://in.linkedin.com/in/aarushi-sachdeva",
+    github: "https://github.com/sachdeva-aarushi",
+  },
+  {
+    id: "33",
+    name: "ANUSHREYA GUPTA",
+    role: "Design",
+    bio: "in her design era ✦",
+    image: "https://drive.google.com/open?id=1kN979chW7Y3PMdwzwdOBhXQLW4hSJj2D",
+    linkedin: "https://www.linkedin.com/in/anushreya-gupta-390117392",
+    github: "GitHub.com/AnushreyaGupta",
+  },
+  {
+    id: "34",
+    name: "Utkarsh Kesarwani",
+    role: "Programming",
+    bio: "C++ || Competitive Programming || DSA",
+    image: "https://drive.google.com/open?id=148W5ILN_G5aQzW6I6zebdZwuzQfpBbj0",
+    linkedin:
+      "https://www.linkedin.com/in/utkarsh-kesarwani-1950b1372?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+  },
+  {
+    id: "35",
+    name: "Pragati Singh",
+    role: "Programming",
+    bio: "I’m curious about programming and enjoy solving coding problems. I love exploring new concepts, improving my problem-solving skills, and challenging myself with different programming questions. I’m always eager to learn, practice, and grow with the community.",
+    image: "https://drive.google.com/open?id=1916kna6U4VrbaPlnIDsubhDLOKQ-IQKh",
+    linkedin: "https://www.linkedin.com/in/pragati-singh-a03bb4377",
+    github: "pragati232007-del",
+  },
+  {
+    id: "36",
+    name: "Kushagra Jaiswal",
+    role: "Design",
+    bio: "I transform simple ideas into meaningful and engaging visual experiences.",
+    image: "https://drive.google.com/open?id=1BfNT0Fn_StUigBI1UWSGDahY1woAS-2A",
+    linkedin: "https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav",
   },
 ];
