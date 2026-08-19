@@ -152,7 +152,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "15",
     name: "Divyansh Goyal",
-    role: "Mobile Development",
+    role: "Android Developer",
     bio: "Somewhere between Android, Reverse Engineering, Open Source, and breaking my own builds.",
     image:
       "https://res.cloudinary.com/youtubeclone0/image/upload/v1787136118/IMG_20260215_180121_-_Divyansh_Goyal_wyboog.jpg",
@@ -162,7 +162,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "16",
     name: "Sudhanshu Mani Tripathi",
-    role: "Web Development",
+    role: "Web Developer",
     bio: "Unresponsive to responsiveness.",
     image:
       "https://res.cloudinary.com/youtubeclone0/image/upload/v1787136117/WhatsApp_Image_2026-08-13_at_4.22.16_PM_-_Sudhanshu_Mani_Tripathi_gkoowu.jpg",
@@ -172,7 +172,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "17",
     name: "Shivi Sharma",
-    role: "Design",
+    role: "Designer",
     bio: "Curating beauty through thoughtful design",
     image:
       "https://res.cloudinary.com/youtubeclone0/image/upload/v1787136103/27cfdeb6-5a7a-4b03-8f54-9d62583e00be_-_Shivi_Sharma_n46ioe.jpg",
@@ -253,7 +253,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "25",
     name: "Saksham Singh",
-    role: "Design",
+    role: "Designer",
     bio: "okok",
     image:
       "https://res.cloudinary.com/youtubeclone0/image/upload/v1787136119/20260530_222252_1_-_Saksham_Singh_mtp8xc.jpg",
@@ -264,7 +264,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "26",
     name: "Prateek Yadav",
-    role: "AI/ML",
+    role: "Machine Learning",
     bio: "AI/ML Developer",
     image:
       "https://res.cloudinary.com/youtubeclone0/image/upload/v1787136103/IMG-20260815-WA0006_-_Prateek_yadav_enizmd.jpg",
@@ -274,7 +274,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "27",
     name: "Vardan Singhal",
-    role: "Web Development",
+    role: "Web Developer",
     bio: "Code. Deploy. Pray.",
     image:
       "https://res.cloudinary.com/youtubeclone0/image/upload/v1787136104/gdg_web_image_-_Vardan_Singhal_ktnive.png",
@@ -284,7 +284,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "28",
     name: "Sahitya Thakurela",
-    role: "Web Development",
+    role: "Web Developer",
     bio: "If you can read this, thank a Software Developer ;-)",
     image:
       "https://res.cloudinary.com/youtubeclone0/image/upload/v1787136120/IMG-20260810-WA0085_-_Sahitya_Thakurela_cpl017.jpg",
@@ -295,7 +295,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "29",
     name: "Sambhav Gupta",
-    role: "Web Development",
+    role: "Web Developer",
     bio: "Computer Science student & Full-Stack developer passionate about building web applications, learning Backend development, and exploring AI. Always learning, building, and turning ideas into projects.",
     image:
       "https://res.cloudinary.com/youtubeclone0/image/upload/v1787136118/WhatsApp_Image_2026-08-13_at_12.44.42_AM_-_Sambhav_Gupta_tbwebz.jpg",
@@ -305,7 +305,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "30",
     name: "GARVIT SINGH NEGI",
-    role: "AI/ML",
+    role: "Machine Learning",
     bio: "​Exploring Machine Learning and AI. In my free time, you'll usually find me playing a game of chess or doomscrolling reels.",
     image:
       "https://res.cloudinary.com/youtubeclone0/image/upload/v1787136119/IMG-20250914-WA0011_1_-_Garvit_Singh_negi_eq1tad.jpg",
@@ -316,7 +316,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "31",
     name: "Aarushi Sachdeva",
-    role: "AI/ML",
+    role: "Machine Learning",
     bio: "building cool things",
     image:
       "https://res.cloudinary.com/youtubeclone0/image/upload/v1787136105/1765297629927_-_Aarushi_Sachdeva_lvo5ug.jpg",
@@ -326,7 +326,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "32",
     name: "Kushagra Jaiswal",
-    role: "Design",
+    role: "Designer",
     bio: "I transform simple ideas into meaningful and engaging visual experiences.",
     image:
       "https://res.cloudinary.com/youtubeclone0/image/upload/v1787136103/Aug_15_2026_02_08_57_AM_-_Kushagra_Jaiswal_qlo2zp.png",
@@ -335,7 +335,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "33",
     name: "ANUSHREYA GUPTA",
-    role: "Design",
+    role: "Designer",
     bio: "in her design era ✦",
     image:
       "https://res.cloudinary.com/youtubeclone0/image/upload/v1787136105/IMG-20260814-WA0000_-_Anushreya_Gupta_gw3swd.jpg",
@@ -365,7 +365,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "36",
     name: "Prakriti Swarup Sinha",
-    role: "Mobile Development",
+    role: "Android Developer",
     bio: "B.Tech student and tech enthusiast. Passionate about learning, building projects, and growing through collaboration.",
     image:
       "https://res.cloudinary.com/youtubeclone0/image/upload/v1787136117/Screenshot_20260813_142941_WhatsApp_-_Prakriti_Swarup_mg31ot.jpg",
