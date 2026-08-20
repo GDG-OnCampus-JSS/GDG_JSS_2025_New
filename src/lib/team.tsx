@@ -12,6 +12,26 @@ export interface TeamMember {
 export const teamMembers: TeamMember[] = [
   {
     id: "1",
+    name: "Abhay Shukla",
+    role: "CTC",
+    bio: "goated",
+    image:
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435490/IMG_20250830_161955749_2_-_Abhay_Shukla_irdtvm.jpg",
+    linkedin: "https://www.linkedin.com/in/abhay-shukla-/",
+    github: "https://github.com/into-the-night",
+  },
+  {
+    id: "2",
+    name: "Ayushi shahi",
+    role: "ORGANIZER",
+    bio: "Learning and building",
+    image:
+      "https://res.cloudinary.com/youtubeclone0/image/upload/c_crop,g_north_west,h_777,w_801,x_97,y_407/WhatsApp_Image_2026-08-19_at_8.06.02_PM_cs7xv1.jpg",
+    linkedin: "https://www.linkedin.com/in/ayushi-shahi-2907b0297/",
+    github: "https://github.com/ayushi-shahi",
+  },
+  {
+    id: "3",
     name: "Ankur Dwivedi",
     role: "Media Lead",
     bio: "Product Designer | I design thoughtful products!",
@@ -21,7 +41,7 @@ export const teamMembers: TeamMember[] = [
     otherLink: "https://helloankurr.framer.website/",
   },
   {
-    id: "2",
+    id: "4",
     name: "Adya Singh",
     role: "Android Lead",
     bio: "Android developer building real-world apps and exploring GenAI.",
@@ -31,7 +51,7 @@ export const teamMembers: TeamMember[] = [
     github: "https://github.com/Adya-04/",
   },
   {
-    id: "3",
+    id: "5",
     name: "Abhinav Gupta",
     role: "Web Lead",
     bio: "Not all who wander are lost, some are just looking for better documentation.",
@@ -41,7 +61,7 @@ export const teamMembers: TeamMember[] = [
     github: "https://github.com/AbhinavG786",
   },
   {
-    id: "4",
+    id: "6",
     name: "Shobhit keshari",
     role: "Design Lead",
     bio: "Designer with 1.5 year intern and Freelance experience",
@@ -50,17 +70,7 @@ export const teamMembers: TeamMember[] = [
     linkedin: "https://www.linkedin.com/in/shobhit-keshari",
   },
   {
-    id: "5",
-    name: "Abhay Shukla",
-    role: "ML Lead",
-    bio: "goated",
-    image:
-      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435490/IMG_20250830_161955749_2_-_Abhay_Shukla_irdtvm.jpg",
-    linkedin: "https://www.linkedin.com/in/abhay-shukla-/",
-    github: "https://github.com/into-the-night",
-  },
-  {
-    id: "6",
+    id: "7",
     name: "Shishir Kumar",
     role: "Web Developer",
     bio: "Developer who loves problem solving, turning ideas into production-ready apps",
@@ -68,16 +78,6 @@ export const teamMembers: TeamMember[] = [
       "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435460/IMG-20260126-WA0063_-_Shishir_Kumar_m6xlgy.jpg",
     linkedin: "https://linkedin.com/in/krshishir",
     github: "https://github.com/krshishir1",
-  },
-  {
-    id: "7",
-    name: "Ayushi shahi",
-    role: "Programmer",
-    bio: "Learning and building",
-    image:
-      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435462/My_3_-_Ayushi_shahi_qfktsf.jpg",
-    linkedin: "https://www.linkedin.com/in/ayushi-shahi-2907b0297/",
-    github: "https://github.com/ayushi-shahi",
   },
   {
     id: "8",
