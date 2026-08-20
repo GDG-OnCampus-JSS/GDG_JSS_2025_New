@@ -16,7 +16,7 @@ export const teamMembers: TeamMember[] = [
     role: "Media Lead",
     bio: "Product Designer | I design thoughtful products!",
     image:
-      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435474/WhatsApp_Image_2025-08-19_at_23.44.06_1ad4eac4_-_Ankur_Dwivedi_mlumm7.jpg",
+      "https://res.cloudinary.com/youtubeclone0/image/upload/v1787215966/ankursir2_i8utfy.jpg",
     linkedin: "https://www.linkedin.com/in/helloankurr/",
     otherLink: "https://helloankurr.framer.website/",
   },
@@ -175,7 +175,7 @@ export const teamMembers: TeamMember[] = [
     role: "Designer",
     bio: "Curating beauty through thoughtful design",
     image:
-      "https://res.cloudinary.com/youtubeclone0/image/upload/v1787136103/27cfdeb6-5a7a-4b03-8f54-9d62583e00be_-_Shivi_Sharma_n46ioe.jpg",
+      "https://res.cloudinary.com/youtubeclone0/image/upload/v1787218647/27cfdeb6-5a7a-4b03-8f54-9d62583e00be_-_Shivi_Sharma_n46ioe.jpg",
     otherLink:
       "https://app.enhancv.com/share/b22ec395/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic",
   },
@@ -348,7 +348,7 @@ export const teamMembers: TeamMember[] = [
     role: "Programmer",
     bio: "C++ || Competitive Programming || DSA",
     image:
-      "https://res.cloudinary.com/youtubeclone0/image/upload/v1787136105/IMG-20260809-WA0016_-_Utkarsh_glvl6t.jpg",
+      "https://res.cloudinary.com/youtubeclone0/image/upload/v1787218237/IMG-20260809-WA0016_-_Utkarsh_glvl6t.jpg",
     linkedin:
       "https://www.linkedin.com/in/utkarsh-kesarwani-1950b1372?utm_source=share_via&utm_content=profile&utm_medium=member_android",
   },
