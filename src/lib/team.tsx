@@ -12,16 +12,6 @@ export interface TeamMember {
 export const teamMembers: TeamMember[] = [
   {
     id: "1",
-    name: "Abhay Shukla",
-    role: "CTC",
-    bio: "goated",
-    image:
-      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435490/IMG_20250830_161955749_2_-_Abhay_Shukla_irdtvm.jpg",
-    linkedin: "https://www.linkedin.com/in/abhay-shukla-/",
-    github: "https://github.com/into-the-night",
-  },
-  {
-    id: "2",
     name: "Ayushi shahi",
     role: "ORGANIZER",
     bio: "Learning and building",
@@ -29,6 +19,16 @@ export const teamMembers: TeamMember[] = [
       "https://res.cloudinary.com/youtubeclone0/image/upload/c_crop,g_north_west,h_777,w_801,x_97,y_407/WhatsApp_Image_2026-08-19_at_8.06.02_PM_cs7xv1.jpg",
     linkedin: "https://www.linkedin.com/in/ayushi-shahi-2907b0297/",
     github: "https://github.com/ayushi-shahi",
+  },
+  {
+    id: "2",
+    name: "Abhay Shukla",
+    role: "CTC",
+    bio: "goated",
+    image:
+      "https://res.cloudinary.com/dmqsixiwi/image/upload/v1771435490/IMG_20250830_161955749_2_-_Abhay_Shukla_irdtvm.jpg",
+    linkedin: "https://www.linkedin.com/in/abhay-shukla-/",
+    github: "https://github.com/into-the-night",
   },
   {
     id: "3",
