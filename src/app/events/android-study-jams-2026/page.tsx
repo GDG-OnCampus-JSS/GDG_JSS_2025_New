@@ -13,8 +13,6 @@ const years = [
   { value: 2, label: "2nd" },
   { value: 3, label: "3rd" },
   { value: 4, label: "4th" },
-  { value: 5, label: "5th" },
-  { value: 6, label: "6th" },
 ];
 
 const inputClass =
@@ -306,9 +304,6 @@ export default function AndroidStudyJamsPage() {
                     <legend className="font-medium text-[#202124]">
                       Year of study
                     </legend>
-                    <p id="year-help" className="mt-1 text-sm text-[#5F6368]">
-                      Select your current academic year.
-                    </p>
                     <div className="mt-3 grid grid-cols-3 gap-2 sm:grid-cols-6">
                       {years.map((year) => (
                         <label
