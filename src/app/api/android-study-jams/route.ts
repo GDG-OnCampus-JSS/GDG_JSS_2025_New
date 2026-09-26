@@ -56,6 +56,7 @@ export async function POST(request: Request) {
         method: "POST",
         headers: {
           apikey: key,
+          Authorization: `Bearer ${key}`,
           "Content-Type": "application/json",
           Prefer: "return=minimal",
         },
@@ -65,11 +66,21 @@ export async function POST(request: Request) {
     );
 
     if (!response.ok) {
+      const errorText = await response.text();
       console.error(
         "Supabase registration insert failed:",
         response.status,
-        await response.text()
+        errorText
       );
+      
+      // PostgREST returns 409 Conflict for unique constraint violations
+      if (response.status === 409) {
+        return NextResponse.json(
+          { error: "This email has already been registered." },
+          { status: 409 }
+        );
+      }
+
       return NextResponse.json(
         { error: "We couldn't save your registration. Please try again." },
         { status: 502 }
