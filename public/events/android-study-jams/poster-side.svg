@@ -1,0 +1,24 @@
+<svg width="72" height="1186" viewBox="0 0 72 1186" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_734_8064)">
+<mask id="path-1-inside-1_734_8064" fill="white">
+<path d="M72 0H0V1186H72V0Z"/>
+</mask>
+<path d="M72 0H0V1186H72V0Z" fill="#1CBD67"/>
+<line y1="-10.5" x2="1579.54" y2="-10.5" transform="matrix(-0.620464 0.784235 0.784235 0.620464 960.18 0.417969)" stroke="black" stroke-opacity="0.1" stroke-width="21"/>
+<line y1="-10.5" x2="1579.54" y2="-10.5" transform="matrix(-0.620464 0.784235 0.784235 0.620464 897.438 -49.2188)" stroke="black" stroke-opacity="0.1" stroke-width="21"/>
+<line y1="-10.5" x2="1579.54" y2="-10.5" transform="matrix(-0.620464 0.784235 0.784235 0.620464 834.703 -98.8555)" stroke="black" stroke-opacity="0.1" stroke-width="21"/>
+<line y1="-10.5" x2="1579.54" y2="-10.5" transform="matrix(-0.620464 0.784235 0.784235 0.620464 771.961 -148.496)" stroke="black" stroke-opacity="0.1" stroke-width="21"/>
+<line y1="-10.5" x2="1579.54" y2="-10.5" transform="matrix(-0.620464 0.784235 0.784235 0.620464 709.227 -198.133)" stroke="black" stroke-opacity="0.1" stroke-width="21"/>
+<line y1="-10.5" x2="1579.54" y2="-10.5" transform="matrix(-0.620464 0.784235 0.784235 0.620464 646.484 -247.77)" stroke="black" stroke-opacity="0.1" stroke-width="21"/>
+<line y1="-10.5" x2="1579.54" y2="-10.5" transform="matrix(-0.620464 0.784235 0.784235 0.620464 583.742 -297.406)" stroke="black" stroke-opacity="0.1" stroke-width="21"/>
+<line y1="-10.5" x2="1579.54" y2="-10.5" transform="matrix(-0.620464 0.784235 0.784235 0.620464 521.008 -347.043)" stroke="black" stroke-opacity="0.1" stroke-width="21"/>
+<line y1="-10.5" x2="1579.54" y2="-10.5" transform="matrix(-0.620464 0.784235 0.784235 0.620464 458.266 -396.68)" stroke="black" stroke-opacity="0.1" stroke-width="21"/>
+<line y1="-10.5" x2="1579.54" y2="-10.5" transform="matrix(-0.620464 0.784235 0.784235 0.620464 395.531 -446.316)" stroke="black" stroke-opacity="0.1" stroke-width="21"/>
+</g>
+<path d="M72 1186H68V0H72H76V1186H72Z" fill="black" mask="url(#path-1-inside-1_734_8064)"/>
+<defs>
+<clipPath id="clip0_734_8064">
+<path d="M72 0H0V1186H72V0Z" fill="white"/>
+</clipPath>
+</defs>
+</svg>

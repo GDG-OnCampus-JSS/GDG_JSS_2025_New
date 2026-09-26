@@ -1,4 +1,5 @@
 import "./globals.css";
+import StudyJamsReminder from "@/components/common/StudyJamsReminder";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Script from "next/script";
@@ -65,6 +66,7 @@ export default function RootLayout({
     <html lang="en" className={customFont.variable}>
       <body className={`antialiased`}>
         {children}
+        <StudyJamsReminder />
         <Analytics />
         <Script
           src="https://www.instagram.com/embed.js"
