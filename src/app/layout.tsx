@@ -66,7 +66,6 @@ export default function RootLayout({
     <html lang="en" className={customFont.variable}>
       <body className={`antialiased`}>
         {children}
-        <StudyJamsReminder />
         <Analytics />
         <Script
           src="https://www.instagram.com/embed.js"

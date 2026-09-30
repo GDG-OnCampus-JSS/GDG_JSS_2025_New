@@ -7,6 +7,8 @@ import Link from "next/link";
 import { ArrowLeft, ArrowRight, CheckCircle2 } from "lucide-react";
 import { FormEvent, useEffect, useState } from "react";
 import { motion, useReducedMotion } from "framer-motion";
+import { redirect } from "next/navigation";
+
 
 const years = [
   { value: 1, label: "1st" },
